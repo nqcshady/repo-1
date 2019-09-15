@@ -15,7 +15,7 @@
                 {
                     "class": "DepictionMarkdownView",
                     "useSpacing": true,
-                    "markdown": "Disable the new Spotify UI"
+                    "markdown": "Disable the new Spotify UI."
                 },
                 {
                     "class": "DepictionSeparatorView"
