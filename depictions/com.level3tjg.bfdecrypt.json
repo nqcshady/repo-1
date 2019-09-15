@@ -18,21 +18,6 @@
                     "markdown": "bfdecrypt is used for decrypting and exporting installed apps on iOS, which can be useful in numerous cases."
                 },
                 {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot0",
-                            "url": ""
-                        }
-                    ],
-                    "class": "DepictionScreenshotsView",
-                    "itemSize": "{160, 275.41333333333336}",
-                    "itemCornerRadius": 6
-                },
-                {
                     "class": "DepictionSeparatorView"
                 },
                 {
