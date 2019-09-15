@@ -15,7 +15,7 @@
                 {
                     "class": "DepictionMarkdownView",
                     "useSpacing": true,
-                    "markdown": "bfdecrypt for iOS 11-12.4."
+                    "markdown": "bfdecrypt is used for decrypting and exporting installed apps on iOS, which can be useful in numerous cases."
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -73,6 +73,6 @@
             ]
         }
     ],
-    "tintColor": "#0657bb",
-    "headerImage": "https://github.com/M1staAwesome/repo/raw/master/images/bfdecrypt.png"
+    "tintColor": "#5fc9f8",
+    "headerImage": "https://github.com/M1staAwesome/repo/raw/master/images/com.level3tjg.bfdecrypt.png"
 }
