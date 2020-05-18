@@ -1,0 +1,38 @@
+{
+    "bundle_id": "com.comex.attachanddetach",
+    "name": "Attach & Detach",
+    "version": "0.0.1-1+debug",
+    "tagline": "use DMGs on iOS",
+    "homepage": "https://m1sta.heywhatsupguysits.icu",
+    "developer": {
+        "name": "Comex",
+        "email": ""
+    },
+    "maintainer": {
+        "name": "M1staAwesome",
+        "email": "adamhamdi31@gmail.com"
+    },
+    "social": [
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/MarijuanARM"
+        },
+        {
+            "name": "Website",
+            "url": "https://m1sta.heywhatsupguysits.icu"
+        }
+    ],
+    "section": "Utilities",
+    "pre_dependencies": "",
+    "dependencies": "",
+    "conflicts": "",
+    "replaces": "",
+    "provides": "",
+    "other_control": ["Tag: role::enduser", "SomeOtherEntryToControl: True"],
+
+    "tint": "#147efb",
+    "works_min": "6.0",
+    "works_max": "13.4.1",
+    "featured": "true",
+    "source": "https://github.com/danzatt/iosdualboot"
+}
