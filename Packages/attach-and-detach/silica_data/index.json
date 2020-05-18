@@ -1,15 +1,15 @@
 {
-    "bundle_id": "com.danzatt.hfsplused",
-    "name": "hfs_resize",
-    "version": "0.0.1-3+debug",
-    "tagline": "Simple tool to resize HFS partitions.",
+    "bundle_id": "com.comex.attachanddetach",
+    "name": "Attach & Detach",
+    "version": "0.0.1-1+debug",
+    "tagline": "use DMGs on iOS",
     "homepage": "https://m1sta.heywhatsupguysits.icu",
     "developer": {
-        "name": "Danzatt",
+        "name": "Comex",
         "email": ""
     },
     "maintainer": {
-        "name": "M1sta",
+        "name": "M1staAwesome",
         "email": "adamhamdi31@gmail.com"
     },
     "social": [
@@ -34,5 +34,5 @@
     "works_min": "6.0",
     "works_max": "13.4.1",
     "featured": "true",
-    "source": "https://github.com/danzatt/hfs_resize"
+    "source": "https://github.com/danzatt/iosdualboot"
 }

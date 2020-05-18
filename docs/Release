@@ -1,0 +1,12 @@
+Origin: m1sta's repo of junk
+Label: m1sta's repo of junk
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: if i compile a tool, i might put it up here
+
+SHA256:
+ 7b7bbaad1ca5fee42a67a796918e4f3f8806e43e334ab352d97043ccf837c27b 821 Packages.bz2
+ 0da9066f86206f35b3921b7b27730ce4fcb6aa742c0e5f3ca63b6dac2f3a2c62 756 Packages.xz
