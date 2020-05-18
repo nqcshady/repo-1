@@ -1,0 +1,40 @@
+{
+    bundle_id: com.danzatt.hfsplused,
+    name: hfs_resize,
+    version: 0.0.1-1+debug,
+    tagline: A simplistic, glyph-based theme.,
+    homepage: https://m1sta.heywhatsupguysits.icu,
+    developer: {
+        name: danzatt,
+        email: ,
+    },
+    maintainer: {
+        name: M1staAwesome,
+        email: adamhamdi31@gmail.com
+    },
+    social: [
+        {
+            name: Twitter,
+            url: https://twitter.com/MarijuanARM
+        },
+        {
+            name: Website,
+            url: https://m1sta.heywhatsupguysits.icu
+        }
+    ],
+    section: Utilities,
+    pre_dependencies: ,
+    dependencies: ,
+    conflicts: ,
+    replaces: ,
+    provides: ,
+    other_control: [Tag: role::hacker, SomeOtherEntryToControl: True],
+
+    tint: #147efb,
+    works_min: 6.0,
+    works_max: 13.4.1,
+    featured: true,
+    source: https://github.com/danzatt/hfs_resize,
+    changelog: ,
+    ]
+}
