@@ -28,7 +28,7 @@
     "conflicts": "",
     "replaces": "",
     "provides": "",
-    "other_control": ["Tag: role::enduser", "SomeOtherEntryToControl: True"],
+    "other_control": ["Tag: role::enduser"],
 
     "tint": "#147efb",
     "works_min": "6.0",

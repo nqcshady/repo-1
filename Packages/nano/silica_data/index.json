@@ -1,11 +1,11 @@
 {
-    "bundle_id": "com.comex.attachanddetach",
-    "name": "Attach & Detach",
-    "version": "0.0.1-1+debug",
-    "tagline": "use DMGs on iOS.",
+    "bundle_id": "nano",
+    "name": "nano",
+    "version": "4.9.2",
+    "tagline": "completely free, modern clone of Pico",
     "homepage": "https://m1sta.heywhatsupguysits.icu",
     "developer": {
-        "name": "Comex",
+        "name": "GNU Foundation",
         "email": ""
     },
     "maintainer": {
@@ -31,8 +31,8 @@
     "other_control": ["Tag: role::enduser"],
 
     "tint": "#147efb",
-    "works_min": "6.0",
+    "works_min": "7.0",
     "works_max": "13.4.1",
     "featured": "true",
-    "source": "https://github.com/danzatt/attach-and-detach"
+    "source": "https://www.nano-editor.org/"
 }
