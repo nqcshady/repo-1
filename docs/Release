@@ -8,5 +8,5 @@ Components: main
 Description: if i compile a tool, i might put it up here
 
 SHA256:
- 45e17d1cd0273607c6e7df9bfd49b63e3013c440572e3cf65cc9b4b735a54a4b 2023 Packages.bz2
- a258ce2a5e70498c5480c34e97dbdd7f96f9d28d68f8b35ca3e01006a8382b54 1900 Packages.xz
+ 3092a9959f99bccc30d8fcfa515558d3eea1e2df76cc779a0f8c079ba75d0283 2020 Packages.bz2
+ dcd7a459d36056f9ff61de31bb39fc7aee0297895025b3a2bdcbf7d8ba1f8b14 1904 Packages.xz
