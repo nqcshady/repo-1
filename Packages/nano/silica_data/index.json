@@ -1,7 +1,7 @@
 {
     "bundle_id": "nano",
     "name": "nano",
-    "version": "4.9.2-1",
+    "version": "4.9.2",
     "tagline": "completely free, modern clone of Pico",
     "homepage": "https://m1sta.heywhatsupguysits.icu",
     "developer": {
