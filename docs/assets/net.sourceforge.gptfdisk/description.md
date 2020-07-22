@@ -1,1 +1,0 @@
-GPT fdisk is a disk partitioning tool used for modifying GPT disks. armv7/arm64
