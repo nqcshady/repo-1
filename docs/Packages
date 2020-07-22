@@ -1,15 +1,15 @@
-Package: com.m1staawesome.img4lib
+Package: img4lib
 Architecture: iphoneos-arm
 Version: 1.0-ed6a796
 Priority: optional
 Section: Utilties
 Maintainer: M1staAwesome
-Filename: ./debians/com.m1staawesome.img4lib_1.0-ed6a796_iphoneos-arm.deb
-Size: 38784
-MD5sum: 786f0e5fb0e6c32fda5fbf7a50efa6c8
-SHA1: d6595249b769f92d5600cab768182a7d7157f343
-SHA256: 4a6f49dc6964fd9d368b00d365a23e2b70ed857352004fbf30167941a5d701e4
-SHA512: 855abd2eee62b4d627bada4bf44102e88a22d34e59e159ed45bbaae68faf9f05749b0992a34c248a6114d47028c14f9d962763087582eb14160837a68fe7225a
+Filename: ./debians/img4lib_1.0-ed6a796_iphoneos-arm.deb
+Size: 38772
+MD5sum: f1b77aeb5b6f543452f6206d7da86118
+SHA1: c94c5559503868765b940b54763d2d346cea25dc
+SHA256: 86cef6b39d0acb2cbf40c96b00a2b261166b2181d19a60b92479afcf17e91252
+SHA512: bbed0e3de89d15a248965bea978e8698cda0130307210888e654428f73a1a5c8cc38b3802987dcf3ce72802b1b895a893c2a0eabaa9613318dabd99cf9970ea5
 Description: image4 vfs
 Name: img4lib
 Depiction: https://m1sta.heywhatsupguysits.icu/depictions/web/?p=img4lib
