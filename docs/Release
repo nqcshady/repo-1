@@ -1,0 +1,37 @@
+Architectures: iphoneos-arm
+Codename: m1sta_repo
+Components: main
+Date: Wed, 22 Jul 2020 05:20:01 +0000
+Description: stuff compiled for iOS
+Label: m1sta's repo
+Origin: m1sta's repo
+Suite: stable
+Version: 1.0
+MD5Sum:
+ 184d10a3d4377777b2c69a6c233ffbf4              733 Packages
+ afda9847b7bed6eb96194df39ae6a33f              514 Packages.bz2
+ 214e17586651ad77df2aa3c3ae22884b              471 Packages.gz
+ 49aad3daa4bf112d147c3a5dd4d425a9              544 Packages.xz
+ 339bf8dedd7c1a49cdcf5963da1a8aa2              465 Packages.zst
+ 1fb1b6e44cfc721f9fe30736aa5ff03e              208 Release
+SHA1:
+ e596b6eec9ce21fd7dff4d9e16c8fc79f41f9ba3              733 Packages
+ 8ba9afc31f5ee557bc49a61026a4d2084656b2fa              514 Packages.bz2
+ 19d5b0c37c44b4d6b3d0f24d5516ff4c77e8d411              471 Packages.gz
+ cd37cacb556975fd0aa0838209cf3c8523c476da              544 Packages.xz
+ c8f6b0e332bb0267749e44074e1aec3a6d4a720d              465 Packages.zst
+ d1863de240c47284e55c3f435684b7710c321e10              208 Release
+SHA256:
+ 38dca8a59a1025bf275df9967261d2e2fc0576a2f6c39d6f25d10caeb6c003f6              733 Packages
+ 26684e320ee70c471519d22b9b0f6cfca52f94de61809967d9f2ef0fbb951073              514 Packages.bz2
+ a93a7dfc466663db110ace18dd7f2e68329cc15161a8bd09c89afc1740daa7b4              471 Packages.gz
+ e9490e2a1e3162ec2a9b874ba19a654231793855dff4e9ef8258607e69e7ecd7              544 Packages.xz
+ 3c9b84736c9126741751a24272c9f8e587cbf4d53a3583a6e637d22e58d7fa66              465 Packages.zst
+ 8d04de6a1c8d93d83bde574f37e05e6778ecca9d3f87198996747f13f3405d1c              208 Release
+SHA512:
+ 82b260b1f37df1e66fd575df44dd91a1aa6050fe6781bcedc7477719b1c91a36c94522079cf28e9da250b763ac53f13f65db9186e772bc391787e339e4adf5f1              733 Packages
+ b9c6fdb56198412c6226bba89aa51055514c46592f312ecc7c87fa51d5b05612a3a58bbd747548f82c22d24ccf45bac771f49c0b34c7ebffc7ec987beda8d410              514 Packages.bz2
+ 69cb68ab73f8f1571a2555602b255d7b469059b391319328a83351815871d25198a83bed632de94509330429737852c425a6b07774d6da03c054103b9e01489b              471 Packages.gz
+ 19d3d384c3c2154289e6b5d8fedc6aff7ba9bc559e717851f85b16fa9069552927755c8b6337959566a7aae19e9964500982273c307515c8f140afc667714df5              544 Packages.xz
+ d77756203f03b3068073bac33a1c4091f4023498aa2d396dad590fc68dfa3db5849c46c637399155a932521cfeecd06b6caf81a2875165376288f07778ca0a1d              465 Packages.zst
+ b3b1b72c76cfe123b44ab6eb7aa117adbb7adffc6ce83f2ca9db72dc00fb70c30682c12ac13c8a32bcec41607653023288f40a0cd9c19482380f6d3748a52510              208 Release
