@@ -1,0 +1,1025 @@
+Package: 2048
+Architecture: iphoneos-arm
+Version: 0.2019.6.29
+Priority: optional
+Section: Games
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 104
+Filename: ./debians/2048_0.2019.6.29_iphoneos-arm.deb
+Size: 7024
+MD5sum: 0e01d142881c3efbcc49534d088f12c6
+SHA1: aa5dce159a6a0b8e3fea378201fb894bea5f8381
+SHA256: 82734841c036dcfbab6baff77134d1b0bff035e792a9fbd69a64203e53a8b774
+SHA512: 888a2de29e360dd7060d6b20e1029c4e419eddc99c69d96c42d6a8acb6cf439ac3170e1da81919974ee4d6d622b910f237f8a3aced30a46a098012a6afb76c23
+Homepage: https://github.com/mevdschee/2048.c
+Description: 4x4 tile mathematics puzzle game
+ The 2048 game is a mathematics based puzzle game where you have to slide tiles in a 4x4 board in any of the four possible directions. Touching tiles with the same value are then merged into tiles with the added value of the merged ones. You start with a couple of 2-valued tiles and new tiles appear randomly after sliding. The target of the game is to reach a tile with a value of 2048 before the board is full.
+
+Package: adv-cmds
+Architecture: iphoneos-arm
+Version: 174.0.1
+Multi-Arch: foreign
+Priority: important
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1200
+Depends: libncursesw6
+Filename: ./debians/adv-cmds_174.0.1_iphoneos-arm.deb
+Size: 74116
+MD5sum: 5f4c6ad7067ab1e618d3cbf04efe7c85
+SHA1: 4083d66d46022bf582651107a4bc9f5cc95cdfa6
+SHA256: 143ecd5ce168d21235856f8d73d09aa1f378a14f7726c52c10f66d3dff5bf9dc
+SHA512: 8cbac9c9f940a9c195e7ffff7ed9562aabc67c36b9edc27fb5e8f813b77cba7d73c9ce0538be1428e784b898b75393054776471225fc36863c186051a1539860
+Description: cap_mkdb, finger, last, locale, lsvfs, tabs
+
+Package: argon2
+Architecture: iphoneos-arm
+Version: 0~20190702
+Priority: optional
+Section: Security
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 152
+Filename: ./debians/argon2_0~20190702_iphoneos-arm.deb
+Size: 19048
+MD5sum: 63fc017476bd2dd1bbec0868e2cd2dc7
+SHA1: cb64f3ebcf54f7915e44b23cb7f6fa69024cd06f
+SHA256: 48cc9ab910e0d25c30915f435d68326686d1cca8741a356c6409d80327dbea6c
+SHA512: 2b52af876735023326be9a78b12ac7b868ef1fd5a8b6370f91dfee253f8aafbc91b4b54cb0659859bd675b9bb70134e32fdf13a6ef29bedda4720c424f8ef35b
+Description: memory-hard hashing function - utility
+ Argon2 is a password-hashing function that can be used to hash passwords
+ for credential storage, key derivation, or other applications.
+ .
+ There are two main versions of Argon2: Argon2i and Argon2d.
+ Argon2i is the safest against side-channel attacks, while Argon2d provides
+ the highest resistance against GPU cracking attacks.
+ .
+ Argon2i and Argon2d are parametrized by:
+  * A time cost, which defines the amount of computation realized and
+    therefore the execution time, given in number of iterations
+  * A memory cost, which defines the memory usage, given in kibibytes
+  * A parallelism degree, which defines the number of parallel threads
+ .
+ This package contains the argon2 tool for hashing data on the command-line.
+Tag: purpose::console, role::hacker
+
+Package: autoconf
+Architecture: iphoneos-arm
+Version: 2.69
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3720
+Depends: perl, libtool
+Filename: ./debians/autoconf_2.69_iphoneos-arm.deb
+Size: 283696
+MD5sum: 72968d9eaacfa68ebe7353f68cc33c58
+SHA1: 863ca0b7c379ff5414f11c453dc8a5c5801654f1
+SHA256: a1c2f4ad5edb219bbf4866727e373da00f9eae7a3dbbd53bdf2392b91477cd0a
+SHA512: c33d1bc7b5edf9a5c613c08b47e3e511fbbd7fdd7f14b3ecabf09122fd989eed8a4eae91ee073ca14e637620355dd439ea9f6eba9e0dfd23d1f2db969263131f
+Description: Automatic configure script builder
+
+Package: automake
+Architecture: iphoneos-arm
+Version: 1.16.2
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3704
+Depends: perl
+Filename: ./debians/automake_1.16.2_iphoneos-arm.deb
+Size: 321768
+MD5sum: 0131871cc52157f26bf581a9eabe76b2
+SHA1: cac49d2013147a35721f7272301371ab808aecc7
+SHA256: 740cb01387389f7a85c361874cbb693979fe534f4f1b60fc9a1f4152a69fcd82
+SHA512: f0cf6ac64c84911909eb2dbb62b89a843449fc16add6b2c7d6e5cf4c506762991e5714086504158666df73a8b6d00e5e8ddd90496793f34021fb2ca7fa95af09
+Description: Tool for generating GNU Standards-compliant Makefiles
+
+Package: autopoint
+Architecture: iphoneos-arm
+Version: 0.21-2
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 64
+Depends: liblzma5 (>= 5.2.5)
+Filename: ./debians/autopoint_0.21-2_iphoneos-arm.deb
+Size: 9952
+MD5sum: ab951f9efbadacf349d97859e930a3e4
+SHA1: f804e15aa309192ff6c089c3851fe075d1c30d5f
+SHA256: 1b1833a1e620e08b2982b2d58ea442f4c4b3bd942a316e60fe92d47f2ab665a9
+SHA512: b594709de32c2550ff12f0108fb53f4e5e546fb4d8b281b72efb9a4659a3daed848724ae7dd45ab804867290f5d46bea3d712e83e8d5941bcd51c903b130fce5
+Homepage: http://www.gnu.org/software/gettext/
+Description: autopoint program from GNU gettext
+
+Package: base
+Architecture: iphoneos-arm
+Version: 1-5
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Filename: ./debians/base_1-5_iphoneos-arm.deb
+Size: 1712
+MD5sum: 83f9295cf22bd5f2829c25dd531410cd
+SHA1: 98f08eba2f1db2173f24ce9db9318bd44e14060f
+SHA256: f3a69985d894c1fcc34b2a8e8e9c5fb411b6ab04c8ad4b51808f182fe8b7e1ed
+SHA512: 95c9ea8676057547f6568e674b4a1649ba7a72366076fdacc546d4d91d51169f4aef9e4e344e440b43556c321197abc3719bef9dff285e596ff6ab99739ee3a9
+Description: underlying system directory structure
+Tag: purpose::backend, role::hacker
+Name: Base Structure
+
+Package: bash
+Architecture: iphoneos-arm
+Version: 5.0.18
+Priority: optional
+Section: Terminal_Support
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5064
+Pre-Depends: libreadline8 (>= 8.0), profile.d (>= 0-5)
+Depends: grep, libncursesw6, libreadline8, sed
+Filename: ./debians/bash_5.0.18_iphoneos-arm.deb
+Size: 422464
+MD5sum: b1d6b534ca7b5917586c2e6f308ef939
+SHA1: 142969f629802fef47e244a7c585fcf993de8250
+SHA256: 16fce17637eb7d5f21a5c978d9f0269f0f6f847197825ed2dd4ee0b1ee25576c
+SHA512: bcc05816043be625e6de82a86f865f94c19aa902a4d4d740a17cd7c80c35392fb71747e1fd619fc9ee3641ce7cf5211aaefb0a22ee2309e6159ed861955d20ce
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever written by Brian Fox
+Name: Bourne-Again SHell
+
+Package: basic-cmds
+Architecture: iphoneos-arm
+Version: 55
+Multi-Arch: foreign
+Priority: important
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 424
+Filename: ./debians/basic-cmds_55_iphoneos-arm.deb
+Size: 12108
+MD5sum: 581c3012d878b66ea5cedbd6c3bb0c33
+SHA1: 688f634246ca986ea3408fd3fefc9dc6d2a1b164
+SHA256: 355e7e9e01f1c0d857b0553670257f3b4d1e8dc6c3dc0ba68853ce13458eaf57
+SHA512: 8f6bd3030fe4461d461be9147455477ac4c3bfc7853f842621ae08e0c7a206fdbd84fcfd0591071883e210c9655d9657a4833e9ce7fbd5466f4b73b8c010433d
+Description: msg, uudecode, uuencode, write
+Tag: purpose::console, role::hacker
+
+Package: bastet
+Architecture: iphoneos-arm
+Version: 0.43.2
+Priority: optional
+Section: Games
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 584
+Depends: libncursesw6, libboost-program-options1.74.0
+Filename: ./debians/bastet_0.43.2_iphoneos-arm.deb
+Size: 86736
+MD5sum: 51c08695f21224749334fcbab0629cd5
+SHA1: 824a8fbc9c27a7e3d62ae2d463f1ee31374e0f63
+SHA256: 3e8a06adcf4c66fc56a1133a0f1cc504447d6530e36df8379764101a45048dc8
+SHA512: f89f662fe7f8c7f19aa4510d0e3355c531fa3434440db40f8bf9118653aea76ed1cfe40a8432cfc28f2adad8fc7280ded3ecaeab533e6b4c5cfd952342fe7d1f
+Description: ncurses Tetris clone with a bastard algorithm
+Name: Bastard Tetris
+
+Package: bison-locale
+Architecture: iphoneos-arm
+Version: 3.7.2
+Priority: optional
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1936
+Depends: bison (= 3.7.2), gettext-localizations
+Filename: ./debians/bison-locale_3.7.2_iphoneos-arm.deb
+Size: 115300
+MD5sum: 026878d6c3376ad49b93413d7af51d84
+SHA1: d51eda1e428131f5ceae696f3370b246ff081e16
+SHA256: 947b66bd196997e7df85c2f171a513a600ff2d5bd517160b42b502d3453a0118
+SHA512: a04228d8254f32ce789a257afd855dc6df72a40b8cebfdf7ffc617e63c7a01e09a44dd11edf9023b97e1dde8df0a43964d8c5ea44e46656daec4e1606e0ea3a1
+Description: Locale files for bison.
+
+Package: bison
+Architecture: iphoneos-arm
+Version: 3.7.2
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2384
+Depends: m4, libintl8, libreadline8
+Filename: ./debians/bison_3.7.2_iphoneos-arm.deb
+Size: 327220
+MD5sum: 8eff87247147c9ddf053c0df5bc395c3
+SHA1: 39216b3e1441aee799d10718c9a277f13cb3ccc8
+SHA256: ab305bb5866d569afaede471d18171a8063f2fbabc3ed08447caca993853dd5e
+SHA512: e89714e2d797112f5c404f77d828e20c4dcff68b68ebc5db8a127320973066fde60f302b66d6d1bed8be4fade696d5acef4017c6d0b77b1bfc9e60f67a2f890c
+Description: a general-purpose parser generator
+Name: Bison
+
+Package: bootstrap-cmds
+Architecture: iphoneos-arm
+Version: 116
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 520
+Filename: ./debians/bootstrap-cmds_116_iphoneos-arm.deb
+Size: 74756
+MD5sum: 19251b81b05bafd5e86b1cd84cf65d25
+SHA1: 00dd38b68217e2b3e871467c1bf5b9a3d46db92e
+SHA256: 112205b574ac1a69a364299691e508516e15a6a9ffef3c310a6639c952b2b5e0
+SHA512: 9e4bce18ec279e45ba0c00614a332774ed2c680cc240dfc4d2eb463207a681ca61a7d5905b73eed4a41e3d2a4d05510555a268da31e98d752042ddb71c665fd3
+Description: Mach interface and stub generator
+Tag: purpose::console, role::developer
+Name: Bootstrap Commands
+
+Package: db18.1-util
+Architecture: iphoneos-arm
+Version: 18.1.40
+Priority: standard
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1592
+Depends: libssl1.1, libdb18.1
+Filename: ./debians/db18.1-util_18.1.40_iphoneos-arm.deb
+Size: 47004
+MD5sum: 9b5bab694b13ebb43c398706f4e2f397
+SHA1: 9504f74d0dcb5ed45782663701faa43965d722fd
+SHA256: e97c5865a8d705eebc4ec1f2fb596de389477981d010f4ba0a7b4a53f300c461
+SHA512: 2580ea62e870be133735db5de513a957e9d44930942f2b9ce83175e6c0a910c35c60336ac46fa6c2f0152ce964801f6ea6702285447f7a0aed9a84676236be57
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Berkeley v18.1 Database Utilities
+ This package provides different tools for manipulating databases
+ in the Berkeley v18.1 database format, and includes:
+  - db_archive: write the pathnames of the log files no longer in use.
+  - db_checkpoint: daemon process to monitor the database log and
+    checkpoint it periodically.
+  - db_deadlock: traverse the database environment lock region and
+    abort lock requests when a deadlock is detected.
+  - db_load: loads (and creates) a database from standard input.
+  - db_dump: read a database file and write it in a format understood
+    by db4.{2..8}_load.
+  - db_printlog: dump log files in human readable format.
+  - db_stat: display statistics for Berkeley DB environments.
+  - db_upgrade: upgrades the version of files and the databases they
+    contain.
+  - db_verify: check the structure of files and their databases.
+
+Package: essential
+Architecture: iphoneos-arm
+Version: 0-3
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Pre-Depends: bootstrap | dpkg (>= 1.19.0)
+Depends: cydia | org.coolstar.sileo | xyz.willy.zebra | me.apptapp.installer
+Filename: ./debians/essential_0-3_iphoneos-arm.deb
+Size: 896
+MD5sum: cd3443041012af8fb2c4bc234c56a0e1
+SHA1: f41ef5d9da2c59a01d9a3b43821534150f026025
+SHA256: bd4059c6d73bdf195bd1aaf4a643d53494405cf45e7808208138bd240e22e386
+SHA512: ee95b24179b4186956a5001fca05b4d22f48e574ce86b44ec9d9ca89f155679ba7c722790d4a572cc1c9755a1a439767be97f4bb4949263c3a23af84299813eb
+Description: contains nothing, represents everything
+Tag: cydia::essential, role::goddess
+Depiction: http://cydia.saurik.com/info/essential/
+Name: Essential
+
+Package: file
+Architecture: iphoneos-arm
+Version: 5.39-1
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 136
+Depends: libmagic1, liblzma5 (>= 5.2.5)
+Filename: ./debians/file_5.39-1_iphoneos-arm.deb
+Size: 17072
+MD5sum: 0b6e6142e286e53fe6152e853a57f28a
+SHA1: 38599c69c68c0f3cb69c6c96131155aadf8a7141
+SHA256: 37ded1d813413651c3638701279216e00c7cbbf15bfffdde59fa9a111d23d519
+SHA512: 77cd08242a4f0aabc66e2e7a96de2995602b457852ba2025a8f4418cfdcaece28d78f30da360cc0b1fe477c36ff75f0ed0bcecf2f0ece30df69140384791022e
+Description: Recognize the type of data in a file using "magic" numbers
+ The file command is "a file type guesser", a command-line tool that
+ tells you in words what kind of data a file contains.
+ .
+ This package contains the file program itself.
+
+Package: firmware-sbin
+Architecture: all
+Version: 0-1
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Pre-Depends: firmware (>= 11.0)
+Replaces: system-cmds (<= 433.4-11), diskdev-cmds (<= 421.7-3)
+Filename: ./debians/firmware-sbin_0-1_iphoneos-arm.deb
+Size: 2320
+MD5sum: 093b082a5a78316f8b962e28fff7f62e
+SHA1: 4ef6fd914beeb8c6898f271f0d7e110fe6fc6f34
+SHA256: 37ca77f7e7ce9d6b1f5a9cc83437bd6ac2ca87a0b3552bf67fc5859a77d58205
+SHA512: 9146dfa467a82023858b4f51b891bf3df7b7951144620387e5180f1569bfe23322b7cf699fdddb3887d2733c60c0f514a31511a35ce96731d5058b0877a7a26e
+Description: represents Telesphoreo / iPhoneOS conflicts
+Name: iPhone Firmware (/sbin)
+
+Package: gettext-base
+Architecture: iphoneos-arm
+Version: 0.21-2
+Priority: optional
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 568
+Depends: libintl8
+Conflicts: gettext (<< 0.21-2)
+Replaces: gettext (<< 0.21-2)
+Filename: ./debians/gettext-base_0.21-2_iphoneos-arm.deb
+Size: 35748
+MD5sum: ac74a27860b3dc842e6b844bdca6e85d
+SHA1: 8be5ae2d66ae94082c6d99731bc65943855c48d8
+SHA256: 4a647f714d7dc186a2d31f4ac8ba6da59d6a1ccea3d95236024bae582376dc22
+SHA512: 167885685117f90322ac50c7613bf35003c51c06944eec11e24c3ed7332fa8dd980eaa0001a9ce836a4ac00a703dc571f0078816828dd8d5f027a197e081a212
+Homepage: http://www.gnu.org/software/gettext/
+Description: GNU Internationalization utilities for the base system
+
+Package: gettext
+Architecture: iphoneos-arm
+Version: 0.21-2
+Priority: optional
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5640
+Depends: libncursesw6, gettext-base, libintl8
+Breaks: apt (<< 2.1.0)
+Filename: ./debians/gettext_0.21-2_iphoneos-arm.deb
+Size: 560912
+MD5sum: 386da9b228a1b9bb44b2a8457e3f1c4a
+SHA1: c194958a9d9b4afd89198ae828f9b03ab0deacdc
+SHA256: 091a1cb3396352ba3006d17897d3c5f211e5e8a7980b627de5d3ac191f893859
+SHA512: b0d01eb2b8940774c67f616b10ca7eab640d9d5bb12f9e8b3ef92143d7fb9db35b82f522ae0ed8ba027b482dc5c5bc9cdcd72225015c0836464fec75f5986d86
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings
+
+Package: launchctl
+Architecture: iphoneos-arm
+Version: 23-2
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 328
+Filename: ./debians/launchctl_23-2_iphoneos-arm.deb
+Size: 35868
+MD5sum: a8fe2c3c50ddf8d7c284066b20939f73
+SHA1: ebf5453fc581507e3d26a5218ad153901bfa0fb3
+SHA256: 710b8a52cc2d2f1a20e9f3a9f3627f4a35adf75b1887f29393e6150ccc225df7
+SHA512: 70070c3670425b82194d094dd52f9ee202586b81b36f7b6ef924c6786182917e6950d509176758c68109948d3481a325b6fa8b32870c63826cb1e1246d6f5051
+Description: Tells launchd what to do
+Name: Launch Daemon Controller
+
+Package: libargon2-dev
+Architecture: iphoneos-arm
+Version: 0~20190702
+Priority: standard
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 304
+Depends: libargon2 (= 0~20190702)
+Filename: ./debians/libargon2-dev_0~20190702_iphoneos-arm.deb
+Size: 49724
+MD5sum: 7c7b2da9ffa4daf4d4ab05247ceeac45
+SHA1: db2f616805eed48b06dd69d921d8110a61e1d7f7
+SHA256: c88ccce460b51782d5ed5f757d681c5881294e6f1cf6d8e59fdcdc9c5d0b33ae
+SHA512: 47c03bb5eb7a434a26a4403267b320633bfc1f5a6fb954553abdc33b45c1db2722893391958e0d152d8621cb65ef81b1a6461c1b0243b53032e7092d6025de77
+Description: memory-hard hashing function - development files
+ Argon2 is a password-hashing function that can be used to hash passwords
+ for credential storage, key derivation, or other applications.
+ .
+ There are two main versions of Argon2: Argon2i and Argon2d.
+ Argon2i is the safest against side-channel attacks, while Argon2d provides
+ the highest resistance against GPU cracking attacks.
+ .
+ Argon2i and Argon2d are parametrized by:
+  * A time cost, which defines the amount of computation realized and
+    therefore the execution time, given in number of iterations
+  * A memory cost, which defines the memory usage, given in kibibytes
+  * A parallelism degree, which defines the number of parallel threads
+ .
+ This package contains headers and libraries for developing program based
+ on argon2.
+Tag: role::developer
+
+Package: libargon2
+Architecture: iphoneos-arm
+Version: 0~20190702
+Priority: optional
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 152
+Filename: ./debians/libargon2_0~20190702_iphoneos-arm.deb
+Size: 17000
+MD5sum: a4922650dbb957297489e0dd1ca6a033
+SHA1: 02e3d2bc10dd2ba66c80bbcf272781697c2e483b
+SHA256: ff827afedce1ccbbe34aaa42942befd3ee5ccb19032e017850edeb37c8ec9142
+SHA512: fa66abc768d076eee9a40052829b352c0d26e65d3a50a22b50bad2837911650b897f7c33a1391b3543d55422535074235153450378f16b7bc991a988078e203b
+Description: memory-hard hashing function - runtime library
+ Argon2 is a password-hashing function that can be used to hash passwords
+ for credential storage, key derivation, or other applications.
+ .
+ There are two main versions of Argon2: Argon2i and Argon2d.
+ Argon2i is the safest against side-channel attacks, while Argon2d provides
+ the highest resistance against GPU cracking attacks.
+ .
+ Argon2i and Argon2d are parametrized by:
+  * A time cost, which defines the amount of computation realized and
+    therefore the execution time, given in number of iterations
+  * A memory cost, which defines the memory usage, given in kibibytes
+  * A parallelism degree, which defines the number of parallel threads
+ .
+ This package includes the dynamic library against which programs are linked.
+Tag: purpose::library, role::developer
+
+Package: libbison-dev
+Architecture: iphoneos-arm
+Version: 3.7.2
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 8
+Filename: ./debians/libbison-dev_3.7.2_iphoneos-arm.deb
+Size: 1292
+MD5sum: b3dd49e8cc875315f1336ad17177123a
+SHA1: 31315522cea9abdd686c576a3046c803767b00f0
+SHA256: a2ab1d6f3014c495c692d7d6f212c4f6824f7ff92a9ba2fa89d9c2a9c7bc9bac
+SHA512: 0652cbc2ab9454f85318457e1b65c57ceab4e74f488591bb21126eb5bf8e1bcf216a1aeca7e39c3615eb12fb3ad710017b62aa174a22db4154d0e2d23843072a
+Description: a general-purpose parser generator - development library
+
+Package: libdb18.1++-dev
+Architecture: iphoneos-arm
+Version: 18.1.40
+Priority: standard
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 4088
+Depends: libdb18.1++ (>= 18.1.40)
+Filename: ./debians/libdb18.1++-dev_18.1.40_iphoneos-arm.deb
+Size: 779204
+MD5sum: 9d2c0370ade8cbc9eac41421f65885be
+SHA1: 042a0b125a8d5f5a2c2a51db79a20c16ec7b1787
+SHA256: 2cd1e5046a5b0c8106a9794b65be2f49552eafe9faabacc4559d8f8ec6976864
+SHA512: c2a7c4f80fd8f2cfb6bd43f6eb554babe21ade4a5cecf2e3d33922e9915adbdfc3d8daf70da0f83d33190e311d40acdf916bb774689222db269ffcc95ad0a623
+Description: Berkeley v5.3 Database Libraries for C++ [development]
+ This is the development package which contains headers and static
+ libraries for the Berkeley v5.3 database library.  This is only for
+ programs which will use the C++ interface.
+
+Package: libdb18.1++
+Architecture: iphoneos-arm
+Version: 18.1.40
+Priority: standard
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2968
+Depends: libssl1.1
+Conflicts: berkeleydb (<< 18.1.40)
+Replaces: berkeleydb (<< 18.1.40)
+Filename: ./debians/libdb18.1++_18.1.40_iphoneos-arm.deb
+Size: 662336
+MD5sum: 6cc7b6bee5d5f8446b07a34c15247f3d
+SHA1: 78a82211de82a741d1f628993d57c30d5839df8e
+SHA256: fd1bb3efa183e7a6b3b3263d24bea41925023c27ead51889922d519a40f736bd
+SHA512: 45df3256c819a58ec15577a5230eaddd843f0dd9bde65a17b8ccd596c8d2c93bb049a0b81bc290ae4a7df450dc1b62fcd308daa63bdcb84925e3a6f78ed8b934
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Berkeley v5.3 Database Libraries for C++ [runtime]
+ This is the runtime package for programs that use the Berkeley v5.3
+ database library.  This is only for programs which use the C++ interface.
+
+Package: libdb18.1-dev
+Architecture: iphoneos-arm
+Version: 18.1.40
+Priority: standard
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3936
+Depends: libdb18.1 (>= 18.1.40)
+Filename: ./debians/libdb18.1-dev_18.1.40_iphoneos-arm.deb
+Size: 760508
+MD5sum: 63d22fa543bda23c3b3013b486f1239e
+SHA1: 81830af817af4a71f6129a24eefee4a74fee025d
+SHA256: 7a4d7c549957cb783463e5c1c02a63c7887bea9b7287ccad5b0410f89da2ccb8
+SHA512: f48b9029f7d9e699f89ea9006d074c083fdb5acc59ed902d21a2637014abc5d373d6ca803ef7aeb0a04ef875cdd99d9cd17933a857e13f317c4d73d0d4918abd
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Berkeley v18.1 Database Libraries [development]
+ This is the development package which contains headers and static
+ libraries for the Berkeley v18.1 database library.
+
+Package: libdb18.1-stl-dev
+Architecture: iphoneos-arm
+Version: 18.1.40
+Priority: standard
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5024
+Depends: libdb18.1-stl (>= 18.1.40)
+Filename: ./debians/libdb18.1-stl-dev_18.1.40_iphoneos-arm.deb
+Size: 864468
+MD5sum: ae6a6f92e8b8960259115298f5c60859
+SHA1: b306790af494fec80d764e2c309a7aa08bb38ed3
+SHA256: 386b303caf120974c5429967bb9af5a14d3f3e30349cd821173e22c6fdf01692
+SHA512: b1d0572e0aab23a4ee1fbefdd0dce04aeff2358ca6f23126e6be8e0d63dfd07e678dc48be14fe898bf0fe4458c3bc71c40e4459d72b27e2f33404149f5b56b48
+Description: Berkeley v5.3 Database Libraries [STL development]
+ This is the development package which contains headers and static
+ libraries for the Berkeley v5.3 database library.
+
+Package: libdb18.1-stl
+Architecture: iphoneos-arm
+Version: 18.1.40
+Priority: standard
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3088
+Depends: libssl1.1
+Conflicts: berkeleydb (<< 18.1.40)
+Replaces: berkeleydb (<< 18.1.40)
+Filename: ./debians/libdb18.1-stl_18.1.40_iphoneos-arm.deb
+Size: 685496
+MD5sum: e7703a2f0c02eef688e9f12c9dd92c88
+SHA1: b264ef0abe320afd880e7d07a7e05396b9f278ba
+SHA256: 81ab33839ee776399ed0ba0f4d909ae4d267a6393f920cb52b9acff1a688b06d
+SHA512: 61c2c263ddabc32e66d0f22b641d34582acae572ad2cf004f010ee611e789beb2ace47279eb8540fe19d671eef4d34acef5a51e08505783a34edc77a9b3c081f
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Berkeley v5.3 Database Libraries [STL runtime]
+ This is the runtime package for programs that use the v5.3 Berkeley
+ database STL library.
+
+Package: libdb18.1
+Architecture: iphoneos-arm
+Version: 18.1.40
+Priority: standard
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2688
+Provides: berkeleydb (= 18.1.40)
+Depends: libssl1.1
+Conflicts: berkeleydb
+Replaces: berkeleydb
+Filename: ./debians/libdb18.1_18.1.40_iphoneos-arm.deb
+Size: 626556
+MD5sum: 16a3c3d7322628ac223194bfc2223b2d
+SHA1: e1ad4470b488c9c25a77e47ffceb64afe0b07b11
+SHA256: bfc51b8ba9312a0e297e8c4036a1615ba09048558e67dce4e4d4cf8506a7c063
+SHA512: 9cf87740dca2f7234c93445c9ab853d8a2a690ea3240a25dad65a1bf1a59e0c66824ed28b9439f8cb1c3344e7a17441446a171966e8018e19317c1effa801e4f
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Berkeley v18.1 Database Libraries [runtime]
+ This is the runtime package for programs that use the v18.1 Berkeley
+ database library.
+
+Package: libgettexpo-dev
+Architecture: iphoneos-arm
+Version: 0.21-2
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 880
+Depends: libgettextpo0 (= 0.21-2)
+Filename: ./debians/libgettexpo-dev_0.21-2_iphoneos-arm.deb
+Size: 137848
+MD5sum: a64601da81586ca7dc498c43cee18a6e
+SHA1: 43755426a56f5f4d2d83e4c72b2c86c778e00891
+SHA256: 40e20c3265ecb92619d3bacea3fb3be95125fe40972663fc07f965e964a79363
+SHA512: b76f6416a7d42c3ad0cc5b591558ee57617b7685ab1cbb6f990d3230d2dcb4305f7395e5dbe40fc536f08b00dd2c67f1a4495e3fd0931613fa36c5a796c986c3
+Homepage: http://www.gnu.org/software/gettext/
+Description: process PO files - static libraries and headers
+
+Package: libgettextpo0
+Architecture: iphoneos-arm
+Version: 0.21-2
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 608
+Depends: libunistring2, libintl8
+Filename: ./debians/libgettextpo0_0.21-2_iphoneos-arm.deb
+Size: 108040
+MD5sum: de63298308a65daa6579613f0962acb3
+SHA1: f6b13ef2a0fb240686d6a73d6ffd9d5f9bf5cab7
+SHA256: 620aef7ed591f38e45d2e543adb3667e977792d1bd5d846439fbc4d2c827a502
+SHA512: b3959b79fa6d38704310989edf0a36c98fdfdbf8128200b338d11953b8a63b3dc30f114fe330c18b97802c1b6943cec60f71bc94ca0c6ab122988dd24925f7db
+Homepage: http://www.gnu.org/software/gettext/
+Description: process PO files - shared library
+
+Package: libintl-dev
+Architecture: iphoneos-arm
+Version: 0.21-2
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 184
+Depends: libintl8 (= 0.21-2)
+Conflicts: gettext (<< 0.21-2)
+Replaces: gettext (<< 0.21-2)
+Filename: ./debians/libintl-dev_0.21-2_iphoneos-arm.deb
+Size: 29988
+MD5sum: 84297587aa34b9e3cefca8e3f7378e50
+SHA1: 9dc8cb116f26a99cf3b635558680665bc4755136
+SHA256: 2a1e92e427de16f808de9dcf29f43ed7a1a539a54fcbe670404c41e385049d98
+SHA512: 482dcd87026fb5b1b7dfdb88d5daffcdb1f5356eab126613e8211136426e557d19acfb6366cfd0c4385c27a41cfe13cd2521178ee92636858e17ea5a2baa50e5
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings - development files
+
+Package: libintl8
+Architecture: iphoneos-arm
+Version: 0.21-2
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 152
+Conflicts: gettext (<< 0.21-2)
+Filename: ./debians/libintl8_0.21-2_iphoneos-arm.deb
+Size: 21372
+MD5sum: 49d0ff96b506afb3b1baaa0cab11d8df
+SHA1: 32fa7a080181a93e504ca367f11256b536a53f99
+SHA256: 92a4c29ce8e093f11544344c300b8cfd56bba11a8a52d655132517bc235b66e7
+SHA512: 49e47d0666c91231099fdba8a24a4a171f30d9cbca227088ed281fdedf53adb2723e2f45020d30ae43a7e452bcd1ff77712e4470749973df08b64ed676f6b9e0
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings
+Essental: yes
+
+Package: liblzma-dev
+Architecture: iphoneos-arm
+Version: 5.2.5-2
+Priority: standard
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 552
+Depends: liblzma5 (>= 5.2.5-2)
+Conflicts: xz (<<1:0), lzma (<<3:0)
+Replaces: xz, lzma
+Filename: ./debians/liblzma-dev_5.2.5-2_iphoneos-arm.deb
+Size: 65684
+MD5sum: af34d41d6409d0de078b1caa41ffc436
+SHA1: bda6acced4af896db86f77f4926b3583d5b354ac
+SHA256: 71ea4c74a8129da8654ddaba124d71bdf617522beb320beb80beca24730c0bc6
+SHA512: 0014922d04671154676dce7a16bad7a8225b29da7aff15a4b262fe643ef6763ac622b95b353de553c7c14252a5699825866a3b0113ebf4de2f4ab60ac6cdd47c
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression library - development files
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ The native format of liblzma is XZ; it also supports raw (headerless)
+ streams and the older LZMA format used by lzma. (For 7-Zip's related
+ format, use the p7zip package instead.) This package provides the
+ development library needed to build programs using liblzma.
+
+Package: liblzma5
+Architecture: iphoneos-arm
+Version: 5.2.5-2
+Priority: standard
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 296
+Conflicts: xz (<<1:0), lzma (<<3:0)
+Replaces: xz, lzma
+Filename: ./debians/liblzma5_5.2.5-2_iphoneos-arm.deb
+Size: 70116
+MD5sum: 014f039ea5bb13ba16a6fa1b187ff6cc
+SHA1: f5f1c5cb86501ddd9e6755b9f4ad54dbf218a797
+SHA256: bbe33e4a65366f3a3ab1034fd3b2753f599a9eeeea961cbe6101e3010dba3e04
+SHA512: 7c3a0581752f1fd5ed7d69b52e883074515fd3b3dc175782c1bf3f61be8e7416a67fe5662e5ee3fd5f87ce358afce9190f1cd548bc6149b19cdeb21782e16b85
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression library
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ The native format of liblzma is XZ; it also supports raw (headerless)
+ streams and the older LZMA format used by lzma. (For 7-Zip's related
+ format, use the p7zip package instead.)
+
+Package: libmagic-dev
+Architecture: iphoneos-arm
+Version: 5.39-1
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 16
+Depends: libmagic1 (= 5.39-1), liblzma-dev
+Conflicts: file (<< 5.39-1)
+Replaces: file (<< 5.39-1)
+Filename: ./debians/libmagic-dev_5.39-1_iphoneos-arm.deb
+Size: 5124
+MD5sum: 861f7471171d37fdfd0cf79e213fcf89
+SHA1: 2395275f5995cdffc13259af05ec0bfec684312b
+SHA256: d87e67f7018204d85ff585251dacefc8fc7c86521c1c486d0e9b8511e748a003
+SHA512: 6cc4f0d58db1030030ee3531e32fdc7109b18bb0a3e4d70e52f24a32b771d020ce47f71f827384a51ae207046e4144a45804852518f82196a6a675bc3e917a23
+Description: Recognize the type of data in a file using "magic" numbers - development
+ This library can be used to classify files according to magic number
+ tests.
+ .
+ This package contains the development files.
+
+Package: libmagic1
+Architecture: iphoneos-arm
+Version: 5.39-1
+Priority: important
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 13312
+Depends: liblzma5 (>= 5.2.5)
+Conflicts: file (<< 5.39-1)
+Replaces: file (<< 5.39-1)
+Filename: ./debians/libmagic1_5.39-1_iphoneos-arm.deb
+Size: 290120
+MD5sum: f556f06a548a659f446cc2f5a67d0c5b
+SHA1: 00414e3bbf8f521473a8845fc8ce9fb09e615752
+SHA256: 9773e09546e833a63656c1e998975072e0b6fd2168e1836d4e40445d98d7ee25
+SHA512: 81c1457d6d9b2ccfce595c13d91e85e176c59956e6652202057c297f249e31d0a778176c0091781b815b485bbfc512d9c4fdf11612a8496d3a42211e38f31707
+Description: Recognize the type of data in a file using "magic" numbers - library
+ This library can be used to classify files according to magic number
+ tests. It implements the core functionality of the file command.
+
+Package: libncurses-dev
+Architecture: iphoneos-arm
+Version: 6.2-1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2192
+Depends: libncursesw6 (= 6.2-1)
+Conflicts: ncurses (<< 6.2-1)
+Replaces: ncurses (<< 6.2-1)
+Filename: ./debians/libncurses-dev_6.2-1_iphoneos-arm.deb
+Size: 281776
+MD5sum: 325d77c66a9900329767e4a178fa22d2
+SHA1: aa4dd3f1164a81d046fcec67b58d72c25ad6e3d5
+SHA256: dbf658e412c60379d69c973fbd2646837110fcb8e20ceb3181bd7634a721eb73
+SHA512: c6917eb43c27fcc6bf131c817ff284b2d0b96d8a0909b5f6a39f7530240753b2a232bba775efcb72c899e7ccd480ea7cf9befef569fb652d961db99fd2329382
+Description: developer's libraries for ncurses
+
+Package: libncursesw6
+Architecture: iphoneos-arm
+Version: 6.2-1
+Priority: required
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1000
+Provides: ncurses (= 6.2-1)
+Depends: ncurses-term (>= 6.2-1)
+Conflicts: ncurses (<< 6.2-1)
+Replaces: ncurses (<< 6.2-1)
+Filename: ./debians/libncursesw6_6.2-1_iphoneos-arm.deb
+Size: 167104
+MD5sum: 7db64b0ad6085fa408dfb6e16fe7870f
+SHA1: f0ea456b3051c0f4d0eb23b7b8cb7249defd7758
+SHA256: f4aa12f2f3b796861b7ed61a6c61aa51de7c2464f25a8dabcd870f6370a95b63
+SHA512: 71a6144b69f189d4f88fc01d7fbe5c82bffe44d010eec91e666696b22a11cff5d2a2ce67e3d8f091a2ed83e3f6e70db2a5068816038c52e35053795b3b214638
+Description: shared libraries for terminal handling (wide character support)
+
+Package: libtextstyle-dev
+Architecture: iphoneos-arm
+Version: 0.21-2
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1704
+Depends: libtextstyle0v5 (= 0.21-2)
+Filename: ./debians/libtextstyle-dev_0.21-2_iphoneos-arm.deb
+Size: 278284
+MD5sum: f6eb38c40cd9fb74f2bd2ccabedaf966
+SHA1: b805bc8163c604f22a574fee450ba073263078a2
+SHA256: 93506579044b9188cce1b9c6dfac47674d602895552f099f35bce2faa9e8fa8c
+SHA512: c936c8af9356857e92900e9f41d702c522167186a3e858d045e00bfcd3076cec7c1b2589f6c2e1b20c4d1de296484038ca85775f732c91c7ce8ada16c8e304bf
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings - development files
+
+Package: libtextstyle0v5
+Architecture: iphoneos-arm
+Version: 0.21-2
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1008
+Depends: libncursesw6
+Filename: ./debians/libtextstyle0v5_0.21-2_iphoneos-arm.deb
+Size: 207540
+MD5sum: 39ee6bfa1a4e2471602a4202864d9ea7
+SHA1: b147a59644c3c43c7ed1800b5d7378000cc4bb9c
+SHA256: ee0ce14dabeb8146c2601bee1c5a8c9f12ee4a40866484a932c7db4cedf8901c
+SHA512: 1c3b8cd6be0fccc1e0e3b1f73164d528ec7906fff71f92977833c35f32b6db719f43d98717c228244af89763e3de69b63e643718421827047368d8e2df01927d
+Homepage: http://www.gnu.org/software/gettext/
+Description: internationalization helper for strings
+
+Package: libunistring-dev
+Architecture: iphoneos-arm
+Version: 0.9.10-2
+Multi-Arch: foreign
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 4048
+Depends: libunistring2 (>= 0.9.10-2)
+Conflicts: libunistring (<< 0.9.10-2)
+Replaces: libunistring (<< 0.9.10-2)
+Filename: ./debians/libunistring-dev_0.9.10-2_iphoneos-arm.deb
+Size: 425396
+MD5sum: 61f39401f39d263a3abaf78213de0477
+SHA1: adf2cab01527eaee4fa26a61cd37961578896764
+SHA256: fb46518e3d0863659410eec1b309248911591d98e63d87885ab4075a56fd7d8c
+SHA512: 7f2c3416c88e0c18e2d27b228c28d4cf3890a34953d30c5866b8e5803c29690bf6f5482b7b07b3113fa3ba4ccd2342b8128716254be7a0c65b5ada1273f2b3cc
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Unicode string library for C - development files
+
+Package: libunistring2
+Architecture: iphoneos-arm
+Version: 0.9.10-2
+Multi-Arch: foreign
+Priority: optional
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3104
+Provides: libunistring (= 0.9.10-2)
+Conflicts: libunistring (<< 0.9.10-2)
+Replaces: libunistring (<< 0.9.10-2)
+Filename: ./debians/libunistring2_0.9.10-2_iphoneos-arm.deb
+Size: 407604
+MD5sum: 9daa20e0733aa272459d4360dabf2635
+SHA1: a325f027becbafbe12095dbc8cd321318fb95316
+SHA256: 64abd44932705b23fec7ac4320a7065353ab3e5e2a45a7c9e39fbc6f1f2ee28d
+SHA512: a2450b655288c37ae5b7a847c30b74c9287e18f91dfffe0ede9c6f35d096b80103ce09be47b72c5cf7433465e4ce1c6941177ea3c01a79a511b1fdb82ce9a686
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Unicode string library for C
+
+Package: nano-locale
+Architecture: iphoneos-arm
+Version: 5.3-1
+Priority: optional
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3440
+Depends: nano (= 5.3-1), gettext-localizations
+Filename: ./debians/nano-locale_5.3-1_iphoneos-arm.deb
+Size: 274052
+MD5sum: 6652df1c07cd62c220c10f945dec28ee
+SHA1: 0ddbdbe251a3aac5a4aac094b65b7c2658da4888
+SHA256: 91c5acece0476a6224cd1e6149914734ec72b31f9656da8786a85c8a03d4aadd
+SHA512: f27f6612f68f49ec90a9e261bd37ba75fc1d0618e8dc5f0462d7b703823607442a1f69f35daab14703987dc0501c164eb8d4c669aa3d8a116f11abd662b66d1b
+Description: Locale files for nano.
+
+Package: nano
+Architecture: iphoneos-arm
+Version: 5.3-1
+Priority: standard
+Section: Text_Editors
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1160
+Depends: libmagic1, libncursesw6, libintl8
+Filename: ./debians/nano_5.3-1_iphoneos-arm.deb
+Size: 209920
+MD5sum: 0126ad125ea3a754deb04e35c57400d0
+SHA1: 3232bf3b0bc4cc2bdd20dad5b106163a6dbf5202
+SHA256: d56ee0b217217f949ab556c56b90480401383e357a803d26a3136abf9fa50bc0
+SHA512: beb404bcb2abfe6e5162de7388603d0d7686d275080abeac6f3f9e13f11ea02f632c75cd70f032ce2529ce285fbd7c140734f5fbd471632840039d5bed0a5698
+Description: completely free, modern clone of Pico
+
+Package: ncurses-bin
+Architecture: iphoneos-arm
+Version: 6.2-1
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1072
+Depends: libncursesw6 (>= 6.2-1)
+Conflicts: ncurses (<< 6.2-1)
+Replaces: ncurses (<< 6.2-1)
+Filename: ./debians/ncurses-bin_6.2-1_iphoneos-arm.deb
+Size: 156752
+MD5sum: 1f7d7a5056393c621ff5dd54a1d9e5c4
+SHA1: 5fd4ea5bb84deb68bda1d13a7cf1e6c88af0c6e8
+SHA256: dde9c2f1875e8479550c3ee9955ef39b5a69e935a6e6dac826fcbd7e28cf42fe
+SHA512: 3f9d4941579564908bf77bf36f5a3e4e9f1a5d5826644e7317278cb67c079b6b4b99c5f5f1bd6bcb032a7f3199fd6a559aa6f7b70e71046aee58663bf95301db
+Description: terminal-related programs and man pages
+
+Package: ncurses-doc
+Architecture: all
+Version: 6.2-1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1072
+Conflicts: ncurses (<< 6.2-1)
+Replaces: ncurses (<< 6.2-1)
+Filename: ./debians/ncurses-doc_6.2-1_iphoneos-arm.deb
+Size: 306612
+MD5sum: 34db5cfd400cd152d830f246c840dd7f
+SHA1: 1f2533d77273f4d75d3ea59dfd96c9d9732e65bd
+SHA256: 8e5202630dbd80e5aefd21023ef3d386c195c3503a136ffbd86af2d88e7a07aa
+SHA512: a7d4dc43e5e2cee29f44f5b4cbd2989dded2a0036f3698f2c4980be338d88b32d8db72fd9e5f60c89ab3454dc8ad44b5b54646386adb689258fc793a86c8aba2
+Description: developer's guide and documentation for ncurses
+
+Package: ncurses-term
+Architecture: all
+Version: 6.2-1
+Priority: required
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2376
+Conflicts: ncurses (<< 6.2-1)
+Replaces: ncurses (<< 6.2-1)
+Filename: ./debians/ncurses-term_6.2-1_iphoneos-arm.deb
+Size: 46784
+MD5sum: d236994ec1ebe50b0d009b391608bf4a
+SHA1: b05cdf8b745fa5a598894bb06b6ddd9666425247
+SHA256: c16cafee9d41d4dec427c42a4b80e5bd73dcb81e67f17d95706558d75b888fcb
+SHA512: 39147245e83ba68851a92fb404b70275cba13ee0f6e00f9fab69ea27e9aff19cbf7e54e40f54344ca80f300f5d806c6e131a9c84c990932f7e9e909a870b33c6
+Description: This package contains terminfo data files to support most types of terminals.
+
+Package: profile.d
+Architecture: iphoneos-arm
+Version: 0-5
+Priority: standard
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 24
+Pre-Depends: system-cmds (>=805.220.1)
+Depends: zsh
+Filename: ./debians/profile.d_0-5_iphoneos-arm.deb
+Size: 1360
+MD5sum: 99e182c8868556b1a021ae5e5514d904
+SHA1: 3abd044168cec7cc62bb466c5ddc1eebee44817e
+SHA256: 49fbf0c54638a65cc23823e3890c0e9b04ef62bccb753f0962b7922ec6877f23
+SHA512: 767da4596a8d39964bc66346bd2a76b729ad3037209498e1bd3e4dfd7e039b5430267cd4d330255131c7707745a472d4b184843d16b82defe774708a2f00952a
+Description: makes packaging for /etc/profile reasonable
+Name: Profile Directory
+
+Package: xz-utils
+Architecture: iphoneos-arm
+Version: 5.2.5-2
+Priority: standard
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 512
+Provides: xz (=1:0), lzma (=3:0)
+Depends: liblzma5 (>= 5.2.5-2), libintl8
+Conflicts: xz (<<1:0), lzma (<<3:0)
+Replaces: xz, lzma
+Filename: ./debians/xz-utils_5.2.5-2_iphoneos-arm.deb
+Size: 57564
+MD5sum: 60ba65d3e6649bdb7afd9c1af2423b04
+SHA1: 43e62873ace009bbfdfc37d6192369a7d1e6b256
+SHA256: b5ddf3fd9b0c9ce553ce919b4cc9addf75ad4211928e698e09c4c483cdd01719
+SHA512: b1d68e2dd9a49ce7704e906c9e55f92edf941643b194ca526669c3523c73db8d1f0ef36b2cd83ef19eb4e486e823aad9a819b5a6a6ad6857cdb4821e3e04384a
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression utilities
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ This package provides the command line tools for working with XZ
+ compression, including xz, unxz, xzcat, xzgrep, and so on. They can
+ also handle the older LZMA format, and if invoked via appropriate
+ symlinks will emulate the behavior of the commands in the lzma
+ package.
+ .
+ The XZ format is similar to the older LZMA format but includes some
+ improvements for general use:
+ .
+  * 'file' magic for detecting XZ files;
+  * crc64 data integrity check;
+  * limited random-access reading support;
+  * improved support for multithreading (not used in xz-utils);
+  * support for flushing the encoder.
+Name: XZ Utils
+
+Package: xzdec
+Architecture: iphoneos-arm
+Version: 5.2.5-2
+Priority: optional
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 272
+Conflicts: xz (<<1:0), lzma (<<3:0)
+Replaces: xz, lzma
+Filename: ./debians/xzdec_5.2.5-2_iphoneos-arm.deb
+Size: 27292
+MD5sum: 340bdc29f6dfc6652676ef441ada4a0e
+SHA1: ffe8424cc388730ff734047e718ac3ad5ea8c3a3
+SHA256: 4c035952343dc739dbe75e0ceb564fd3d3da961d18aed908f05e6d588b9dd147
+SHA512: 297034b9b392154beebc36ab9e1b4f4b0dd3d043044a606fb6f5ac05a1a018f794d2825de129c4de27ab165386047a20a56fe13424273957b140a889912bca57
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression utilities - tiny decompressors
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ This package provides the xzdec and lzmadec utilities, which write
+ the decompressed version of a compressed file to standard output. The
+ binaries are very small, so they can be easily stored on small media
+ with some compressed files, and they are linked statically against
+ liblzma so they can be used on machines without a compatible version
+ of liblzma installed. However, they have:
+ .
+   * no compression support;
+   * no support for writing to a file other than standard output;
+   * no translated messages;
+   * been optimized for size rather than speed.
+ .
+ For a full-featured xzcat command without these limitations, use
+ the xz-utils package instead.
+

@@ -1,0 +1,37 @@
+Architectures: iphoneos-arm
+Codename: procursus_1100
+Components: main
+Date: Mon, 19 Oct 2020 00:13:43 +0000
+Description: an attempt at compiling the Procursus Suite for iOS 8
+Label: m1sta's shitty idea
+Origin: m1sta's shitty idea
+Suite: stable
+Version: 1.0
+MD5Sum:
+ a765e09356d9eb686a2abedb160cef9b            41324 Packages
+ b171183e059d11e0997255b886814c43            13142 Packages.bz2
+ 1b819d0fc535b1c2d5fd0f7023dc5c17            14604 Packages.gz
+ 5ff2f81d8fe3c398b77ade22ed2b925b            13100 Packages.xz
+ 76c16da901c40475bd962a8030a639ec            13420 Packages.zst
+ 287dd83de99c4de011123f8c786f91f4              257 Release
+SHA1:
+ f6925c6d70c2d17ee7af753d7cbee2722e89a40f            41324 Packages
+ 72d542802626c0427ff61d0608d339a0c8c77fb1            13142 Packages.bz2
+ b27fbe1e40d61e08d8bc419860bcab6ebd28f465            14604 Packages.gz
+ d127cf9de08467e3c9ade45b9fa2036bb24eed21            13100 Packages.xz
+ f849e87891deb2a4cf996e012f63243657d534ca            13420 Packages.zst
+ ae73793394fb39f3a4687353d84f93b3faf1af92              257 Release
+SHA256:
+ 7e91372c0eebde83c177b145552fb11ef7c37bf6a153dbf84b656fcce0963dc2            41324 Packages
+ d6dc7e30ac47783209998f76ad11401a0eb12c72556e0131806c4a1d0d857d6b            13142 Packages.bz2
+ aff7b5397d009a70e2a636fc79d781ea7a91670b6646ba90751430acb7cbd8fc            14604 Packages.gz
+ 477a69fdf33f8e1ae911131dc390f772f14f609ec8dd168ecc99dff78d100681            13100 Packages.xz
+ 7c83cc95983bd2d1f85d97eca332e319b00999083c3a5ca4acba80593b0b7284            13420 Packages.zst
+ 7156668e06976800e08f99ceb6cdc306f097b786ac18639b51662c61617e0415              257 Release
+SHA512:
+ 8345ccd8411e34f504e66b95e9ceddb680ed820e8fce8e76f4c4404ad4e07ffdafbff7ab3afa7afba13d92eddab0fad8e6a48870e5763c75235061290590d5a1            41324 Packages
+ 3a33b9a384c6a28e54c3d5870204e57e65e2abe231270d1f5d7e185bb08aede08c8a7e8df4807eb02dabb1b7724ffa40d21077b96922ee416659685871fe2115            13142 Packages.bz2
+ d0e14f7f4a4e275a3dd66750ea243205415a1034283f081a4666f5ece60d8186ce5134aa5439be95b3a741cbb1206a15cfc8146d53fc21d7a2d6472af04d9e20            14604 Packages.gz
+ c986e08b4e12bb2dca9dfe62fbae0d241006d98b6fa5b48d5d0f1f491ff50442792dd26f41257b163418ea7df52ccea87023270e2b38de68e495978a392d337a            13100 Packages.xz
+ adaafbdfc03323199485d013db9eef5abbcaa4ef2acf96f440a0b24cf187a185d54ab476adb223ee42a493c3f4712d10ab11d30c16e0990bc91afe21ac6aa5b5            13420 Packages.zst
+ d2b552d7bd1f33c3f1c2f29917824e04e00ecf01dc6d4baac7659b686a2bf1ec8ff34427462072e3fd2e8f1f551f3ebee142fad5073989c1ef71e1d34f34e9cd              257 Release
