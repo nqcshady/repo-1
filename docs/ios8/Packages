@@ -103,11 +103,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 64
 Depends: liblzma5 (>= 5.2.5)
 Filename: ./debians/autopoint_0.21-2_iphoneos-arm.deb
-Size: 9952
-MD5sum: ab951f9efbadacf349d97859e930a3e4
-SHA1: f804e15aa309192ff6c089c3851fe075d1c30d5f
-SHA256: 1b1833a1e620e08b2982b2d58ea442f4c4b3bd942a316e60fe92d47f2ab665a9
-SHA512: b594709de32c2550ff12f0108fb53f4e5e546fb4d8b281b72efb9a4659a3daed848724ae7dd45ab804867290f5d46bea3d712e83e8d5941bcd51c903b130fce5
+Size: 9956
+MD5sum: f3b2d21fb82cb88299c77f5524c9b47b
+SHA1: 684a3e4acaf910743cbbf594114a2a6e4195f2bd
+SHA256: 16786eb23e1cf34a823c67b777bcde4cb1754d01923f2f0f3c51374d02cf7520
+SHA512: 7b276b5d091a1f6ec0866f45ba0edbac231b9102114a0085f950450d589ea1d90263556e9a7672ed01ca735d80deb1fbd75d888ffe5c4079ee7efb67b6123eb2
 Homepage: http://www.gnu.org/software/gettext/
 Description: autopoint program from GNU gettext
 
@@ -698,6 +698,59 @@ SHA512: a955ca5ac64e7ff1673a9af18bcca8da321fe07d7eecd53aaaf631a564a964886085cba0
 Description: XML parsing C library - example application
   This package contains xmlwf, an example application of expat, the C library for parsing XML. The arguments to xmlwf are one or more files which are each to be checked for XML well-formedness.
 
+Package: fakeroot
+Architecture: iphoneos-arm
+Version: 1.24
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 472
+Depends: shell-cmds (>= 118-8)
+Filename: ./debians/fakeroot_1.24_iphoneos-arm.deb
+Size: 70032
+MD5sum: 2155411f682e883c6327ac4b8ebcd362
+SHA1: ea525119856ed6b1872647e38ac1b97f35772542
+SHA256: 159963891274cafef5df9767dcca2b49c89a212c830f8d3d4ca25312576d3f1c
+SHA512: 1a54c19d60aaa9da24e85096187d99c4388192fb176736b50cbdc81e90c2a6e4ff558f25f77716fbc075adb93320a4c34b19cd55e5b240b675b43c830711d8e4
+Description: tool for simulating superuser privileges
+Tag: purpose::console, role::developer
+
+Package: fff
+Architecture: iphoneos-arm
+Version: 2.1
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 72
+Depends: bash, coreutils
+Suggests: w3m-img, vim, xdg-utils
+Filename: ./debians/fff_2.1_iphoneos-arm.deb
+Size: 11776
+MD5sum: 1e4e94d769c7e6494e290ed573ce5e0a
+SHA1: b718035a8b739724d6a631495d62855dd580327c
+SHA256: c59629e334399811732f663969609fa5d632d4c6f5bc9252c8e7496a86182d40
+SHA512: a15f96513debfbe9d8ac479cdbb270cfe4164368d4896276b3943f9b4445d96d5c2be7c3cc715c969819518b2bec8870408b89d1a9785353dc28e514321895fa
+Homepage: https://github.com/dylanaraps/fff/
+Description: fff (F---ing Fast File-Manager)
+Tag: purpose::console
+Name: fff
+
+Package: file-cmds
+Architecture: iphoneos-arm
+Version: 272.250.1-1
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 760
+Filename: ./debians/file-cmds_272.250.1-1_iphoneos-arm.deb
+Size: 64644
+MD5sum: 27a49068766dec7e8dbc00225ab86477
+SHA1: c24ca83b92db004a69f98736d40408d5ade9cb4b
+SHA256: 5737b3fda6f1963d488df84625de6e2eabda223bac984cce6fc03e89b390018f
+SHA512: 8846197e6a21ed0d7ccc5c68679efad9a1aaa980ee9336ad1dc4d5fb6ee10660e8977704490469b1909b9b2af058eb4f6999d84afd5ab04750d80a4cc1894afb
+Description: chflags, compress, ipcrm, ipcs, pax
+Tag: purpose::console, role::hacker
+
 Package: file
 Architecture: iphoneos-arm
 Version: 5.39-1
@@ -707,16 +760,55 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 136
 Depends: libmagic1, liblzma5 (>= 5.2.5)
 Filename: ./debians/file_5.39-1_iphoneos-arm.deb
-Size: 17072
-MD5sum: 0b6e6142e286e53fe6152e853a57f28a
-SHA1: 38599c69c68c0f3cb69c6c96131155aadf8a7141
-SHA256: 37ded1d813413651c3638701279216e00c7cbbf15bfffdde59fa9a111d23d519
-SHA512: 77cd08242a4f0aabc66e2e7a96de2995602b457852ba2025a8f4418cfdcaece28d78f30da360cc0b1fe477c36ff75f0ed0bcecf2f0ece30df69140384791022e
+Size: 17068
+MD5sum: 5877aa33001ef25617d5d829a4fc294b
+SHA1: dc6368a3ac42788bb0679b4eec827ab3f59e1509
+SHA256: c37c008453545413802a77fc9a00d25ec70da4ea07f6720de2e7cd178f04d786
+SHA512: d521f970588d0d072e9af4a15c98f240a5c6cd8f7e54c844186717bad35c6b78da6e47acb900994c0c28289fa58418f48ddf1e16491f6bcd5ea8e96d358c0dfb
 Description: Recognize the type of data in a file using "magic" numbers
  The file command is "a file type guesser", a command-line tool that
  tells you in words what kind of data a file contains.
  .
  This package contains the file program itself.
+
+Package: findutils-locale
+Architecture: iphoneos-arm
+Version: 4.7.0-2
+Multi-Arch: foreign
+Priority: optional
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2352
+Depends: findutils (= 4.7.0-2), gettext-localizations
+Filename: ./debians/findutils-locale_4.7.0-2_iphoneos-arm.deb
+Size: 175884
+MD5sum: 938521d4892fed2ae2710e5bdf8d7a83
+SHA1: ecb9afc22999cb022c41f516b4894ae8aa893397
+SHA256: f790b7dc77cfd36168243fbbd6972fdad0fe6445c7daea202885f59198f3c0df
+SHA512: 29fd416c07ca7b62fc2907e84c4086c1365907892a40cfcb88c47ec96c6a17c715016960a104cabfa41b694235f69c03dc4ed366d777e378f343572d8ef4f9df
+Homepage: http://www.gnu.org/software/findutils/
+Description: Locale files for findutils.
+
+Package: findutils
+Architecture: iphoneos-arm
+Version: 4.7.0-2
+Multi-Arch: foreign
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1384
+Depends: bash, sed, shell-cmds, libintl8
+Conflicts: shell-cmds (<< 207.40.1)
+Replaces: shell-cmds (<< 207.40.1)
+Filename: ./debians/findutils_4.7.0-2_iphoneos-arm.deb
+Size: 216464
+MD5sum: 64a9cd6df7e982d202467a0c49a63f7d
+SHA1: e4531f6dc9e38cce288c233da4aa0c84ec6d5960
+SHA256: 823c26746f3575097f2908ff85b9a8af7321154c64db6855a328a2c222408372
+SHA512: 0167bc391777012910c3bd88b753e5307aeee994a19891ec324bee7872bdeec5691480b598925af6172d9dd782a2ba878b7872b459e1217a8690ba92bbff520b
+Homepage: http://www.gnu.org/software/findutils/
+Description: indexes and searches filesystems
+Name: Find Utilities
 
 Package: firmware-sbin
 Architecture: all
@@ -730,13 +822,49 @@ Installed-Size: 0
 Pre-Depends: firmware (>= 11.0)
 Replaces: system-cmds (<= 433.4-11), diskdev-cmds (<= 421.7-3)
 Filename: ./debians/firmware-sbin_0-1_iphoneos-arm.deb
-Size: 2320
-MD5sum: 093b082a5a78316f8b962e28fff7f62e
-SHA1: 4ef6fd914beeb8c6898f271f0d7e110fe6fc6f34
-SHA256: 37ca77f7e7ce9d6b1f5a9cc83437bd6ac2ca87a0b3552bf67fc5859a77d58205
-SHA512: 9146dfa467a82023858b4f51b891bf3df7b7951144620387e5180f1569bfe23322b7cf699fdddb3887d2733c60c0f514a31511a35ce96731d5058b0877a7a26e
+Size: 2324
+MD5sum: 81e5314fa5ccf1e39055743f45aa535c
+SHA1: 521fbaf59ed1aef1b647844e5b5e47b6162efc42
+SHA256: b19490873f41e03c4a5e5c872e7905310f13885c98161fff8adb0f557f515ff7
+SHA512: c0a063601c4ba9948c4ef0c0e5ce0ac226b77ec6a6f22514e60927afe14b5c3abb3a13d1e6d522eee074ac49a95a5ac2b754ab2721360b657c66bc5d4ab99996
 Description: represents Telesphoreo / iPhoneOS conflicts
 Name: iPhone Firmware (/sbin)
+
+Package: gawk-locale
+Architecture: iphoneos-arm
+Version: 5.1.0-1
+Multi-Arch: foreign
+Priority: optional
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2440
+Filename: ./debians/gawk-locale_5.1.0-1_iphoneos-arm.deb
+Size: 180264
+MD5sum: f811b5f4523e21a3440cf3ddb3a2c66d
+SHA1: d854e75155291eb07a50b00f4ceca6eaccdd4989
+SHA256: ffa97a3fafc7cfc6e049719dbb01d0109cd6fb3625acee8ba84568335295dbd5
+SHA512: 70c7afdd608adbac17375330612ee7cac046584fc602224ff6f23bf3e97a412c590e2ee1e12133b9d369755a72ad80d089003d7c696e4820e68aea38146756cc
+Homepage: http://www.gnu.org/software/gawk/
+Description: Locale files for gawk.
+
+Package: gawk
+Architecture: iphoneos-arm
+Version: 5.1.0-1
+Multi-Arch: foreign
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 3008
+Filename: ./debians/gawk_5.1.0-1_iphoneos-arm.deb
+Size: 351204
+MD5sum: 887abe3bddd93c46775974a76c54d569
+SHA1: 2e0f79a006d1366d254e3e71b3ab00ec0e6f485d
+SHA256: 9584c68ad9c861a3508232507e134549905bc2ec49beaa5a5384d322d69574ac
+SHA512: 794fc1dbea4990c2d18fe59845de39e4628fcb2dc9177e4cb4269f5a587963ccf2b62db623ac426cd45859432fe6b39d0fdb634ca5508f5af9c911967c543af0
+Homepage: http://www.gnu.org/software/gawk/
+Description: GNU's heavy-weight implementation of awk
+Tag: purpose::console, role::hacker
+Name: Gawk
 
 Package: gettext-base
 Architecture: iphoneos-arm
@@ -749,13 +877,32 @@ Depends: libintl8
 Conflicts: gettext (<< 0.21-2)
 Replaces: gettext (<< 0.21-2)
 Filename: ./debians/gettext-base_0.21-2_iphoneos-arm.deb
-Size: 35748
-MD5sum: ac74a27860b3dc842e6b844bdca6e85d
-SHA1: 8be5ae2d66ae94082c6d99731bc65943855c48d8
-SHA256: 4a647f714d7dc186a2d31f4ac8ba6da59d6a1ccea3d95236024bae582376dc22
-SHA512: 167885685117f90322ac50c7613bf35003c51c06944eec11e24c3ed7332fa8dd980eaa0001a9ce836a4ac00a703dc571f0078816828dd8d5f027a197e081a212
+Size: 35752
+MD5sum: b8681cdb002f7fa246feb38515d13d66
+SHA1: 3e105bfd8e3ab5dfd52c6e00c27e7ecc7142f3b0
+SHA256: da220bdf1980bb63bdcb9c9fe2bcf530ded6f8080de849fd56ef7b253d7decce
+SHA512: a1c8de103c6ae7c5268f53fa1cb83a88fda3889c866cfb0e501c2b6208cb079325d693a27d99b725557b4ead75b85458a4ae5b65cf3ae996a94e2b5dd8174696
 Homepage: http://www.gnu.org/software/gettext/
 Description: GNU Internationalization utilities for the base system
+
+Package: gettext-localizations
+Architecture: iphoneos-arm
+Version: 2020.10.07
+Priority: important
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 6264
+Provides: com.linusyang.localeutf8 (= 99.9)
+Depends: libintl8 (>= 0.20.0)
+Conflicts: com.linusyang.localeutf8
+Replaces: com.linusyang.localeutf8
+Filename: ./debians/gettext-localizations_2020.10.07_iphoneos-arm.deb
+Size: 228252
+MD5sum: 9d4101f48a824d6a69e4898ac12eacd0
+SHA1: ed67cbcdf647dd5a50f97c252743b1ec5d71a25a
+SHA256: d01b0d6f4e603b640f059d76ef92a954dee6bba73c580ac64a9757e57094b645
+SHA512: 751671971e36a46e438ea2c95cf2da684c297c0fccbf441bcad879d0fc9fc0b0f67bf7cce198c4163b00448c5f96cde566355c81c29429ccd1086643b6cc8484
+Description: Locale files necessary for command line tool translation.
 
 Package: gettext
 Architecture: iphoneos-arm
@@ -767,13 +914,62 @@ Installed-Size: 5640
 Depends: libncursesw6, gettext-base, libintl8
 Breaks: apt (<< 2.1.0)
 Filename: ./debians/gettext_0.21-2_iphoneos-arm.deb
-Size: 560912
-MD5sum: 386da9b228a1b9bb44b2a8457e3f1c4a
-SHA1: c194958a9d9b4afd89198ae828f9b03ab0deacdc
-SHA256: 091a1cb3396352ba3006d17897d3c5f211e5e8a7980b627de5d3ac191f893859
-SHA512: b0d01eb2b8940774c67f616b10ca7eab640d9d5bb12f9e8b3ef92143d7fb9db35b82f522ae0ed8ba027b482dc5c5bc9cdcd72225015c0836464fec75f5986d86
+Size: 560836
+MD5sum: 17ec7bbcc8abe957702b1f3f321ceeb9
+SHA1: 97adf9f0ef95abb6ba3f7f045c6b1f3f7baa966e
+SHA256: be1d048dcd3ed02fc28e410102e391532bb1aa84040a118000a3bd779158a5cf
+SHA512: a6ddc6c332f527e02bcf5e9c3f426bc6dfb224ac1de64cc96f92e87205c4b585050a3eb768678393689995ffdede25fcf7670ade89c98e37a2882e3f08bb06f2
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings
+
+Package: gnuchess-locale
+Architecture: iphoneos-arm
+Version: 6.2.7-2
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 560
+Depends: gnuchess (= 6.2.7-2), gettext-localizations
+Filename: ./debians/gnuchess-locale_6.2.7-2_iphoneos-arm.deb
+Size: 47684
+MD5sum: b89166774dc12a7e9cd6fde3da67eab7
+SHA1: 5aa91054652b6afa25882e26f7f48b7788d5ffe7
+SHA256: 8f62cd73f2cf68a0d9c9479512f6b20548cb2b4dd0f63573f508211766bc64d1
+SHA512: 1a903d18ec19da0a2d2041e928663f191367fc28a0efc889865d5c238bbd5ab16a15fdb200ebf7e336961a860fbc08a2a91870fb84b3a2eb056896076ea17e85
+Homepage: https://www.gnu.org/software/chess/
+Description: Locale files for gnuchess.
+
+Package: gnuchess
+Architecture: iphoneos-arm
+Version: 6.2.7-2
+Section: Games
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 816
+Depends: libreadline8, libncursesw6, libintl8
+Filename: ./debians/gnuchess_6.2.7-2_iphoneos-arm.deb
+Size: 168728
+MD5sum: 24d316bcae2fcb33ac1765927772dfa4
+SHA1: 280407c4e47c8612b0757c5c09af37ba829fb271
+SHA256: 0c0d311df247cd54e77498b3619216c29f2e1c65245d59fd81c9223e3bf52d65
+SHA512: ae4529101222208e0f24c6b207584a0cd90e60fe0a1541aae43e2cd70a075fad73654a61a3d6a1fd6c5f393e470d828ab112d3fe081cc4640de7e8b5743b39a2
+Homepage: https://www.gnu.org/software/chess/
+Description: GNU Chess is a chess-playing program. It can be used to play chess against the computer on a terminal or, more commonly, as a chess engine for graphical chess frontends such as XBoard.
+Name: GNU Chess
+
+Package: golb
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 248
+Filename: ./debians/golb_1.0_iphoneos-arm.deb
+Size: 22108
+MD5sum: bbc64852b567e1f6db7a275c06e58515
+SHA1: fe1bb9bec5244a1938c5d97cdae707234fd7e604
+SHA256: 3c315c638e1d5f1b7fdb12ca943439b8138896d4906e2a0bf72e4c85234e2213
+SHA512: c6a46aaf6d2ec2b59ef226dff6b825c885466c6e294c8d6c6c04546e8d5e16ba46d19294e5585af99f2ee25946e7f543a10b0389c0880c8d0f2b02d57344e2aa
+Description: Mapping physical memory to user space (EL0) on iOS. (+ AES PoC)
+Tag: purpose::console, role::hacker
 
 Package: launchctl
 Architecture: iphoneos-arm
@@ -1333,11 +1529,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 880
 Depends: libgettextpo0 (= 0.21-2)
 Filename: ./debians/libgettexpo-dev_0.21-2_iphoneos-arm.deb
-Size: 137848
-MD5sum: a64601da81586ca7dc498c43cee18a6e
-SHA1: 43755426a56f5f4d2d83e4c72b2c86c778e00891
-SHA256: 40e20c3265ecb92619d3bacea3fb3be95125fe40972663fc07f965e964a79363
-SHA512: b76f6416a7d42c3ad0cc5b591558ee57617b7685ab1cbb6f990d3230d2dcb4305f7395e5dbe40fc536f08b00dd2c67f1a4495e3fd0931613fa36c5a796c986c3
+Size: 137872
+MD5sum: 1e646438ead876b0fe4a17ce0bc6568d
+SHA1: e8a645ba47b2e928c45114566e80a832c1abcaa4
+SHA256: 0f368bf5dc67028a52d368a7b2e9a1c9cb40be61752a6355bf0a2fb65fa5710e
+SHA512: 51f62400e37851e26d21ab748bf2527a3952d1e663499e45c1231fb72b2b7701b5f2ef9776d9bb8df21d55120d6be3af304c8e6b451774e3fa302367615439f6
 Homepage: http://www.gnu.org/software/gettext/
 Description: process PO files - static libraries and headers
 
@@ -1349,13 +1545,112 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 608
 Depends: libunistring2, libintl8
 Filename: ./debians/libgettextpo0_0.21-2_iphoneos-arm.deb
-Size: 108040
-MD5sum: de63298308a65daa6579613f0962acb3
-SHA1: f6b13ef2a0fb240686d6a73d6ffd9d5f9bf5cab7
-SHA256: 620aef7ed591f38e45d2e543adb3667e977792d1bd5d846439fbc4d2c827a502
-SHA512: b3959b79fa6d38704310989edf0a36c98fdfdbf8128200b338d11953b8a63b3dc30f114fe330c18b97802c1b6943cec60f71bc94ca0c6ab122988dd24925f7db
+Size: 108060
+MD5sum: 6087b0c075e062adc510d49fe145ff23
+SHA1: 9adfc5c27e0736dbf1dfe678cf85a77c91b9ae48
+SHA256: 70f2f65568dd9cf235366f06ad41036c1ebd18476a7349eaac7c08b16f4afbe5
+SHA512: 4ffbeed4dbd8e5a849f3aab1cc0cb405590097258a4ed3a75cc2dc2b3890966cbaca2a532aa7f7ba53782eb8646ada4c1bd1ce1e5bf8e9f88855d9d457926578
 Homepage: http://www.gnu.org/software/gettext/
 Description: process PO files - shared library
+
+Package: libglib2.0-0-locale
+Architecture: iphoneos-arm
+Version: 2.66.1
+Multi-Arch: foreign
+Priority: optional
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 17672
+Depends: libglib2.0-0 (= 2.66.1), gettext-localizations
+Filename: ./debians/libglib2.0-0-locale_2.66.1_iphoneos-arm.deb
+Size: 1096220
+MD5sum: 3f10fe84b236ad247212a5784f6f10d7
+SHA1: f69b477cc87029825f5371c6afff6b949db2098e
+SHA256: 0a52e5c187bacf3f171533af2e0acb4380bdb4e6beab33e7e929fb2def4e576b
+SHA512: 00ac782bc946d3df76ec0c8bfdb4c3626681e287d9e4a5b45fce4f76351b4e71030b3abc14310dfed52342b9f86c5bf71d89b56e31efc96e0b4c975289305850
+Homepage: http://www.gtk.org/
+Description: Locale files for libglib2.0-0.
+
+Package: libglib2.0-0
+Architecture: iphoneos-arm
+Version: 2.66.1
+Multi-Arch: foreign
+Priority: important
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 7624
+Provides: glib (= 1:0)
+Depends: libffi7, libintl8, libpcre1
+Conflicts: glib (<< 1:0)
+Replaces: glib (<< 1:0)
+Filename: ./debians/libglib2.0-0_2.66.1_iphoneos-arm.deb
+Size: 1074344
+MD5sum: eb1daa97b43efcdeeaae730c035642de
+SHA1: a0bce40ebd5432ef61fa4514b744dfbaa0638e82
+SHA256: a9c9da055dbe54c49c0e3a0487feafa9088f7a98ec1b40c778bd4b5382c7efbe
+SHA512: af33042b8cdb6f89d016747e665b9de43ef5b12b504977efdfe988285e2894481e9542c410385b7834f133f652e52f7e24522b27c3ed1d0ee01f115174100f45
+Homepage: http://www.gtk.org/
+Description: GLib library of C routines
+
+Package: libglib2.0-bin
+Architecture: iphoneos-arm
+Version: 2.66.1
+Multi-Arch: foreign
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 768
+Depends: libglib2.0-0 (= 2.66.1)
+Conflicts: glib (<< 1:0)
+Replaces: glib (<< 1:0)
+Filename: ./debians/libglib2.0-bin_2.66.1_iphoneos-arm.deb
+Size: 53060
+MD5sum: d6f8d6284e742d48260316676a390721
+SHA1: 5ad6bff5fb49dcd361e7b767b0de87b00aa7020a
+SHA256: d33aab5555e53f8a6149c15b1f990142ebb72d1b4168b5e1ed825cc41eb2929a
+SHA512: 7ccdecd64a678d6c638ef9fda0eb80c2afb9746f41d97246a992ea14854eae7caa646f71b9f29d50c53241eacf67a570bc6acb77eb10e8ca4c6a6b320f8de860
+Homepage: http://www.gtk.org/
+Description: Programs for the GLib library
+
+Package: libglib2.0-dev-bin
+Architecture: iphoneos-arm
+Version: 2.66.1
+Multi-Arch: foreign
+Priority: important
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1296
+Depends: libglib2.0-0 (>= 2.65.0)
+Conflicts: glib (<< 1:0)
+Replaces: glib (<< 1:0)
+Filename: ./debians/libglib2.0-dev-bin_2.66.1_iphoneos-arm.deb
+Size: 82552
+MD5sum: 9cf533fe5f388c88b089108477cb31a9
+SHA1: f01d8249d05e9bb4458b85363030acb020720df9
+SHA256: 2de3fa00c0522238a6dd5998705bdd4a747e60a1d66186af73fb98cfe4e63caf
+SHA512: 030095e506c7207500a753b744372130e0384301b350502f9453fcaac831b9c164eb5ddec70acbde9480c30bf8bb0810cafad09b0af3cafe3aef334b628b79cd
+Homepage: http://www.gtk.org/
+Description: Development utilities for the GLib library
+
+Package: libglib2.0-dev
+Architecture: iphoneos-arm
+Version: 2.66.1
+Multi-Arch: foreign
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5456
+Depends: libglib2.0-0 (= 2.66.1), libglib2.0-dev-bin (= 2.66.1)
+Conflicts: glib (<< 1:0)
+Replaces: glib (<< 1:0)
+Filename: ./debians/libglib2.0-dev_2.66.1_iphoneos-arm.deb
+Size: 263148
+MD5sum: a8222cc7f9b1835226cc12466c35dd85
+SHA1: a42bb7f1f1a063ecb3b8677e34e4a10fef3aae86
+SHA256: 79969b71b7d45497776ee6893747a3373616876de3ff2fdab41dd9f4fb4b8f5e
+SHA512: 0ee0e21ad299059d6f0f9bcdaa6315f5e562d878f1d02418cb8f890c71fc40e9a3a440ffdd33d4761aaa1d6bfda134d04b0ec0c41f9d1e948f6dead0ebddbc3e
+Homepage: http://www.gtk.org/
+Description: Development files for the GLib library
 
 Package: libintl-dev
 Architecture: iphoneos-arm
@@ -1367,11 +1662,11 @@ Depends: libintl8 (= 0.21-2)
 Conflicts: gettext (<< 0.21-2)
 Replaces: gettext (<< 0.21-2)
 Filename: ./debians/libintl-dev_0.21-2_iphoneos-arm.deb
-Size: 29988
-MD5sum: 84297587aa34b9e3cefca8e3f7378e50
-SHA1: 9dc8cb116f26a99cf3b635558680665bc4755136
-SHA256: 2a1e92e427de16f808de9dcf29f43ed7a1a539a54fcbe670404c41e385049d98
-SHA512: 482dcd87026fb5b1b7dfdb88d5daffcdb1f5356eab126613e8211136426e557d19acfb6366cfd0c4385c27a41cfe13cd2521178ee92636858e17ea5a2baa50e5
+Size: 29944
+MD5sum: bd74915c4d522dd0c07412b8f2430e2d
+SHA1: 1985c42cf68b724e1028357f33843e79b94cf5bd
+SHA256: e3fcd6dd58266501a8d5efd925f6dbda271bceacde1487a5d9367e4c4ebf32cd
+SHA512: 932be2d8b404be2c51966ce08b5fd045e837d14bab188e8e42f8a74d5cacd8ed62955c77f2f4d47af5e243a5db18a9f5003faa1135ce777fded5fbc36265f53b
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings - development files
 
@@ -1383,11 +1678,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 152
 Conflicts: gettext (<< 0.21-2)
 Filename: ./debians/libintl8_0.21-2_iphoneos-arm.deb
-Size: 21372
-MD5sum: 49d0ff96b506afb3b1baaa0cab11d8df
-SHA1: 32fa7a080181a93e504ca367f11256b536a53f99
-SHA256: 92a4c29ce8e093f11544344c300b8cfd56bba11a8a52d655132517bc235b66e7
-SHA512: 49e47d0666c91231099fdba8a24a4a171f30d9cbca227088ed281fdedf53adb2723e2f45020d30ae43a7e452bcd1ff77712e4470749973df08b64ed676f6b9e0
+Size: 21368
+MD5sum: d070c526c0b9c4b0c1326d24706ff844
+SHA1: aa28a8b6df8024f329b489e73715197b54544dd3
+SHA256: 35cdbd4592aa3af31c7c00fff98277f6783adc56de4a3c0789ac54542242113d
+SHA512: ac2c3f24b072b6fefe88149217da97205c77fd4b1289bdc2f841ef8424786cdd8520ad4870f44156ab44668b8c9266ba173084be93ada8ab6fb58fc97ae3d081
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings
 Essental: yes
@@ -1455,11 +1750,11 @@ Depends: libmagic1 (= 5.39-1), liblzma-dev
 Conflicts: file (<< 5.39-1)
 Replaces: file (<< 5.39-1)
 Filename: ./debians/libmagic-dev_5.39-1_iphoneos-arm.deb
-Size: 5124
-MD5sum: 861f7471171d37fdfd0cf79e213fcf89
-SHA1: 2395275f5995cdffc13259af05ec0bfec684312b
-SHA256: d87e67f7018204d85ff585251dacefc8fc7c86521c1c486d0e9b8511e748a003
-SHA512: 6cc4f0d58db1030030ee3531e32fdc7109b18bb0a3e4d70e52f24a32b771d020ce47f71f827384a51ae207046e4144a45804852518f82196a6a675bc3e917a23
+Size: 5136
+MD5sum: ce27336a12691231c24f41ce6e9492a8
+SHA1: 4ffa48c01918f4027c83d75cd7dc7f44ea5e71d0
+SHA256: 65b097ad8148a85961a9b401c8a6439e5869278499e5ff8443940d1b7fa00d5a
+SHA512: 928722fe7ac26a0b71c604637075a62644102c760a5ae6a521d304bce7e1db5aaca42d846da8f1dd4f09c65bcded312bd2893d5284a20611b2b784781ce9b9d8
 Description: Recognize the type of data in a file using "magic" numbers - development
  This library can be used to classify files according to magic number
  tests.
@@ -1477,11 +1772,11 @@ Depends: liblzma5 (>= 5.2.5)
 Conflicts: file (<< 5.39-1)
 Replaces: file (<< 5.39-1)
 Filename: ./debians/libmagic1_5.39-1_iphoneos-arm.deb
-Size: 290120
-MD5sum: f556f06a548a659f446cc2f5a67d0c5b
-SHA1: 00414e3bbf8f521473a8845fc8ce9fb09e615752
-SHA256: 9773e09546e833a63656c1e998975072e0b6fd2168e1836d4e40445d98d7ee25
-SHA512: 81c1457d6d9b2ccfce595c13d91e85e176c59956e6652202057c297f249e31d0a778176c0091781b815b485bbfc512d9c4fdf11612a8496d3a42211e38f31707
+Size: 290124
+MD5sum: 325d299663193c5ad44f0dbd3cff11b7
+SHA1: 30c03982992c1ee0796d07d7512f4b56fab45d15
+SHA256: 91339ba19221cccad292c0dea0bd34a285ed67ce3ff3c3e98840a9495addd369
+SHA512: 3f048e416fdb307456f75fb4a47e589853f17a92de139bcd91eaa6a55585bdae7242a4055e4b5a5a1bf23164f7635423a5a868e37004ff08a701d190db230932
 Description: Recognize the type of data in a file using "magic" numbers - library
  This library can be used to classify files according to magic number
  tests. It implements the core functionality of the file command.
@@ -1569,11 +1864,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1704
 Depends: libtextstyle0v5 (= 0.21-2)
 Filename: ./debians/libtextstyle-dev_0.21-2_iphoneos-arm.deb
-Size: 278284
-MD5sum: f6eb38c40cd9fb74f2bd2ccabedaf966
-SHA1: b805bc8163c604f22a574fee450ba073263078a2
-SHA256: 93506579044b9188cce1b9c6dfac47674d602895552f099f35bce2faa9e8fa8c
-SHA512: c936c8af9356857e92900e9f41d702c522167186a3e858d045e00bfcd3076cec7c1b2589f6c2e1b20c4d1de296484038ca85775f732c91c7ce8ada16c8e304bf
+Size: 278324
+MD5sum: f08f732bd60069c703cf50a0d47beb93
+SHA1: 15d2d47c35d4c7dc0684a25c808c622a3bfa68b8
+SHA256: 1e83b6c23c92d78f55375e493be3f02c5a03416480370e245a5c6e649bfc5e2c
+SHA512: 7dcebf8ee3bf69582ab1447155b697d98029d6f321ae9e693550751f1670c36428fd1c09d50d4990cb0ff4b35cdb1b14f7694145aa4516178fa125b30572dbcb
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings - development files
 
@@ -1585,11 +1880,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1008
 Depends: libncursesw6
 Filename: ./debians/libtextstyle0v5_0.21-2_iphoneos-arm.deb
-Size: 207540
-MD5sum: 39ee6bfa1a4e2471602a4202864d9ea7
-SHA1: b147a59644c3c43c7ed1800b5d7378000cc4bb9c
-SHA256: ee0ce14dabeb8146c2601bee1c5a8c9f12ee4a40866484a932c7db4cedf8901c
-SHA512: 1c3b8cd6be0fccc1e0e3b1f73164d528ec7906fff71f92977833c35f32b6db719f43d98717c228244af89763e3de69b63e643718421827047368d8e2df01927d
+Size: 207596
+MD5sum: c9318377f5ac1a24bc3475ae5435eaee
+SHA1: 9e9c954393f38b6b3eb80fac1f778c5d0a0b1b95
+SHA256: 7edcccddea9de289a8f301746ed75190be7b606ca30c74c17a1f5cba76204433
+SHA512: 3b1251809584467d77b538f6863b9e3dbd19450ca681d5cd5fdc5d5d58451da37354fae5e0a07e0b1262eb0b8a03b33997b511331b075c065e2db04a5af736d1
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings
 
