@@ -232,6 +232,239 @@ Description: Mach interface and stub generator
 Tag: purpose::console, role::developer
 Name: Bootstrap Commands
 
+Package: brotli
+Architecture: iphoneos-arm
+Version: 1.0.9
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1528
+Depends: libbrotli1 (= 1.0.9)
+Filename: ./debians/brotli_1.0.9_iphoneos-arm.deb
+Size: 291468
+MD5sum: 6a5e8cbc6c79f813022bf40a1af9d2cb
+SHA1: 85b2320e4293da35d971ad53f89e2ab3ce56eb2e
+SHA256: 7b4d7ae2be060b9463d9a64a094a8afff877a5171b81901d7aefeac4326597c6
+SHA512: 37a7c497daae2620b6065481fc54d5d1b3e0d1e56671fc9c4516d239c8801c8403d79ce3be70fc81e58a8ce45c431c3f6551119cf2ce4dbfceaa5bbba7c0a4cb
+Homepage: https://www.brotli.org/
+Description: Command line utility for the Brotli compression format
+Tag: purpose::console, role::hacker
+
+Package: bsdiff
+Architecture: iphoneos-arm
+Version: 4.3
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 224
+Provides: bspatch
+Filename: ./debians/bsdiff_4.3_iphoneos-arm.deb
+Size: 10656
+MD5sum: 00ca54bfdec74547acce6620f9c06b06
+SHA1: a9c763256da587c96c1e2a4b5443f5c7e4dd7258
+SHA256: 138253726c9988a5944d274eb002604914bf00b54ab397f659bad0724cda74fa
+SHA512: 18c8c34fd45d869549317ec094b688f0958d0eaffb6d59dcb0f4bbe677088864ad1c228a1feb3f9c45c103943e721cad88fafd1730b94a739f3c535f402f97a7
+Description: generate/apply a patch between two binary files
+ bsdiff and bspatch are tools for building and applying patches to binary files.
+ By using suffix sorting (specifically, Larsson and Sadakane's qsufsort) and
+ taking advantage of how executable files change, bsdiff routinely produces
+ binary patches 50-80% smaller than those produced by Xdelta, and 15% smaller
+ than those produced by .RTPatch (a commercial patch tool).
+
+Package: build-essential
+Architecture: iphoneos-arm
+Version: 1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 8
+Depends: profile.d
+Filename: ./debians/build-essential_1_iphoneos-arm.deb
+Size: 1028
+MD5sum: 88fd8958098c8a66b54cda688134cff8
+SHA1: f3be7d1c46d48345570924f679c558ea3c9e8c71
+SHA256: 54889ca8eb7f3d8657d13fb45fb868350d394d3036f2c9fe6770e2200b098b81
+SHA512: 7570b728f2996b7c4672a5c813f7d1a336d2b186a07772aad58218641c23478a7e20173f5a9b4df4826a318f34956d02c4d76906426eddb4b547605ad2b14b99
+Description: Place SDKs for your specific platform in /usr/share/SDKs.
+Tag: purpose::console, role::developer
+
+Package: bzip2
+Architecture: iphoneos-arm
+Version: 1.0.8
+Priority: important
+Section: Archiving
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 904
+Filename: ./debians/bzip2_1.0.8_iphoneos-arm.deb
+Size: 48684
+MD5sum: a10b83100ce2d5dd753bc9a241417557
+SHA1: b9c2cbbb15b5fa29d55316d7827177f7f02e861f
+SHA256: 788889488fca684052f58348912b7abfeb14f80bd6a7bfd4e2e5113a40703e5b
+SHA512: e6c406757377ddf2a27417c54ff8f97ee89ad571bf04b1c04764a2bf3d5fa9463243fd0fca77326bded693449512416162a8b6b8c7db01632b0421999a7edc61
+Homepage: http://www.bzip.org/
+Description: compression that's slightly better than gzip
+
+Package: ca-certificates
+Architecture: all
+Version: 0.0.3
+Multi-Arch: foreign
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 448
+Provides: org.thebigboss.cacerts
+Depends: firmware (>= 2.0)
+Conflicts: org.thebigboss.cacerts, openssl (<< 1.0.2r)
+Replaces: org.thebigboss.cacerts
+Filename: ./debians/ca-certificates_0.0.3_iphoneos-arm.deb
+Size: 120084
+MD5sum: 15a9264c14846ff322835457e49f9920
+SHA1: 2ae75133e6e8e35624db13658a54ba4fcc00079a
+SHA256: 0467dc8f101af79d0f283c803efcd1cd467be98912cab85ea3619bedad58d3a8
+SHA512: 17b6ab2fbf87399055eb40b68f21bde2a3128a82c0def104c7661c9ef0b48e64ddeb78f330cae5cc265a55697f4de4f15cd57c2285fc0f3f26f567dc464438de
+Description: CA certs for curl, wget, git.
+Name: CA Certs
+
+Package: calc-dev
+Architecture: iphoneos-arm
+Version: 2.12.7.1
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2288
+Depends: calc (= 2.12.7.1)
+Filename: ./debians/calc-dev_2.12.7.1_iphoneos-arm.deb
+Size: 346528
+MD5sum: 8e5101b820c2e9a0abf3d401dd057114
+SHA1: 9eaf362bf8ef3d4715963cecce5dcacc93b309bb
+SHA256: 757e6ac9aeb2aacab1143f3a56aebcd7b3b4005ccd9a560d5dc950dc32a8cbef
+SHA512: 737f7121bfaec4f6419b3eb4f8e1eb7cb19c30c720aa4d1c938b207ab8cfd538688884b8efb2dfd7a5176535f1ebb0cd0bbf959cf1f2cea3a2af76da9dabcf49
+Description: Arbitrary precision calculator (development files)
+
+Package: calc
+Architecture: iphoneos-arm
+Version: 2.12.7.1
+Priority: standard
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 9672
+Depends: libncursesw6, libreadline8
+Filename: ./debians/calc_2.12.7.1_iphoneos-arm.deb
+Size: 680828
+MD5sum: 257231879ddd4b2be3bceb54819c4b2b
+SHA1: ffa1d3e84327ab7997aff2126022515ae7f2a59a
+SHA256: 721a04caec393f4ec5dda5740ce3aa471e3eed541722dea3a55a9500409cd430
+SHA512: d900596d9cebfedbee60f833b30b2864966a899bb86f4a18cf74a3fc41bd58d77ef4e1dcf1b7777246bfc6bc5fd74d51547d4bf62d7dbd229f6529d3cc544060
+Description: Arbitrary precision calculator
+
+Package: ccache
+Architecture: iphoneos-arm
+Version: 3.7.12
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 344
+Suggests: distcc | icecc
+Filename: ./debians/ccache_3.7.12_iphoneos-arm.deb
+Size: 75092
+MD5sum: a0555aa4f4adc7232deb6b802fe4b3c2
+SHA1: 0ae5646283773d3e0bf412efb86805e15ad0f0af
+SHA256: 98e33453f5ee18063eeed4e3f03d921459b2d00de881c1c76ea25d9247033f96
+SHA512: ad39efd8b6d10c6852fef5a07230454d7414fb68a769ba25de8409d536352e0126fb25ddae764104eb8e0268db6e7dd02cbb86de26ef82c85bdf5489b43f769b
+Homepage: https://ccache.samba.org
+Description: Compiler cache for fast recompilation of C/C++ code
+ ccache is a compiler cache. It speeds up recompilation by caching
+ previous compilations and detecting when the same compilation is
+ being done again. Supported languages are C, C++, Objective-C and
+ Objective-C++.
+
+Package: coreutils-locale
+Architecture: iphoneos-arm
+Version: 8.32-6
+Priority: optional
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 19856
+Depends: coreutils (= 8.32-6), gettext-localizations
+Filename: ./debians/coreutils-locale_8.32-6_iphoneos-arm.deb
+Size: 1393024
+MD5sum: 38fae0bd7bd7761b40dd31cc09f3c21c
+SHA1: a1c93eccc0257bbe5cedf5f4ace0903415f333e4
+SHA256: f99ed5928aeee2d84e08b6ff874f47654bc37038310f97bd31b8258f9e6a3ba6
+SHA512: 5fc4589e54c4b341e7fae379e510ad4c4f7d96e4c96054a4fe485933a88d2ad3d1dea7f791a6879b5e82253bd44cbd1e94d9d3568c54335151044f90fa4326b9
+Homepage: http://www.gnu.org/software/coreutils/
+Description: Locale files for coreutils.
+
+Package: coreutils
+Architecture: iphoneos-arm
+Version: 8.32-6
+Priority: standard
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 25024
+Provides: md5sum, sha1sum, coreutils-bin (=8.32-6), dirname, kill, mktemp, su
+Depends: bash, profile.d, libintl8 (>= 0.20.0), libcrypt2
+Conflicts: coreutils-bin (<<1:0), shell-cmds (<< 207.40.1), text-cmds (<< 1:0), file-cmds (<< 272.250.1-1)
+Replaces: netatalk (<= 2.0.3-6), coreutils-bin, shell-cmds (<< 207.40.1), text-cmds (<< 1:0), file-cmds (<< 272.250.1-1)
+Filename: ./debians/coreutils_8.32-6_iphoneos-arm.deb
+Size: 1232716
+MD5sum: 9d303201117e33115c682151b8a1c991
+SHA1: 359c80919986ecbb1ec603cb57298ab8bb1ce8d3
+SHA256: 20df2b90e15bb382a8b6d0f24c07e7ab5e78cbf63212a0bf667c2992d5d3e226
+SHA512: 16e3eb13cbb0892e3906f4f795940c8d6db49d94fd98227c8b281a99015949fdaca04aeeafa3190eff44bbb82f6387246ba7f260bffe616921db2764db7ae93b
+Homepage: http://www.gnu.org/software/coreutils/
+Description: core set of Unix shell utilities from GNU
+Name: Core Utilities
+
+Package: cpuminer
+Architecture: iphoneos-arm
+Version: 2.5.1
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 232
+Depends: libjansson4, libcurl4
+Filename: ./debians/cpuminer_2.5.1_iphoneos-arm.deb
+Size: 38248
+MD5sum: 4e6d68e1773f506284ce3d3bdd2ab76d
+SHA1: 5c7b3bbf70cf0faeadb043ee126d17f00cb72e21
+SHA256: 8e43f49a79e5587f422e9943e2bee3bd5eda7f54b2852f2c99dbd76b37957726
+SHA512: 3d5e059e701159728a61672bc8a1a7f1b8e8e6f025cb1981fa29beee5289c04bbc56475d33cd3245fd602bc291c0f22c9ac99ec25cc93b444c4b0d7d66a98421
+Description: A multi-threaded CPU miner for Litecoin and Bitcoin
+
+Package: curl
+Architecture: iphoneos-arm
+Version: 7.71.1-2
+Priority: standard
+Section: Networking
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 472
+Depends: libnghttp2-14, libssh2-1, libssl1.1, libidn2-0, libcurl4 (= 7.71.1-2)
+Filename: ./debians/curl_7.71.1-2_iphoneos-arm.deb
+Size: 148592
+MD5sum: f3660e59672a623693ae0613d51a07dc
+SHA1: c7b8b0fe0681df7e8c3541753e39754e424e2014
+SHA256: 45bf73292aa4fd5d91515cd30f00c0eebed6ca56583b1775ac6712137727e3fb
+SHA512: 0cedab25ed5f9779ee63ff2b16386f98801a11f74af80c8bdcb85c0a4c8f54438279c6f6539ec9fe35a77e6bc6257e074279caaa8322c818e3d15882a0e97f70
+Homepage: http://curl.haxx.se/
+Description: command line tool for transferring data with URL syntax
+Tag: purpose::console, role::hacker
+
+Package: darwintools
+Architecture: iphoneos-arm
+Version: 1.2
+Priority: required
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 256
+Depends: apt (>= 2.0.2), system-cmds, uikittools (>= 2.0.0)
+Filename: ./debians/darwintools_1.2_iphoneos-arm.deb
+Size: 17648
+MD5sum: 2490772ae22c11ec2705e1a92dcca80f
+SHA1: 619731f34887a92c89dd546e0f11612c04673134
+SHA256: 66bb08effc97272ac64152f631a39d4f396074da0b42ab5867e11449f7972da3
+SHA512: 6148f399a0d4048ac6111fce8fd59b15db5bc84f28a6efa780a5e4f776b4b6093e7594235238c6b0ca894382394f12741cf3ef71636da6474a298caa298d74e6
+Description: sw_vers, firmware(.sh)
+Name: Darwin Tools
+
 Package: db18.1-util
 Architecture: iphoneos-arm
 Version: 18.1.40
@@ -264,6 +497,169 @@ Description: Berkeley v18.1 Database Utilities
     contain.
   - db_verify: check the structure of files and their databases.
 
+Package: debianutils
+Architecture: iphoneos-arm
+Version: 4.9.1
+Priority: required
+Essential: yes
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 112
+Filename: ./debians/debianutils_4.9.1_iphoneos-arm.deb
+Size: 7624
+MD5sum: cdb5d5b6e5e7b2b6398419352351cf10
+SHA1: 6641783a1d131eb89af5d930332d2ebdfc63a6f4
+SHA256: c7324b5be8a5c041cacdea0b91b3a7a1bd6f69ae5fc230344616b9e251436f87
+SHA512: 2c5f70643ecb6d628235fd489ab055d389ddbc6cecca03d65a46b23778e185bf5c559020237f476f3d2dfa902306917d25570aad77f7b64508d95b9746bb3d30
+Description: pretty much just run-parts. yep? run-parts
+Name: Debian Utilities
+
+Package: developer-cmds
+Architecture: iphoneos-arm
+Version: 66
+Multi-Arch: foreign
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 440
+Filename: ./debians/developer-cmds_66_iphoneos-arm.deb
+Size: 44564
+MD5sum: 0571ec0dea0ccef40e83af95eb1bb080
+SHA1: a6dacab151fda5797259b394a111989a61887bf8
+SHA256: aeb556b226b1a69e2bfa9393286de1458f35e7cb9b0394a6511df5dff5d8b008
+SHA512: 0d60fd0609eed460dcf364f170813441ebc70064552c58ec1d0c500a92a9408289e1b2a085ae469dbd3ea2a54297a9a3c7864848af9e7dac0423be0a640e07e1
+Description: ctags, rpcgen, unifdef
+Tag: purpose::console, role::developer
+
+Package: diffutils-locale
+Architecture: iphoneos-arm
+Version: 3.7-2
+Multi-Arch: foreign
+Priority: optional
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2096
+Depends: diffutils (= 3.7-2), gettext-localizations
+Filename: ./debians/diffutils-locale_3.7-2_iphoneos-arm.deb
+Size: 144752
+MD5sum: ca46670a866e91f3624e488aa8f44b37
+SHA1: cca88386c9ab0c4aaa644ee214ad4c3649b59dde
+SHA256: 15d1021f24ebe049ea7f6fdb0bc45a3b1bf944ae6449e576449cc4bc7ca02d4a
+SHA512: 8c9541378bdb119e2ffd66e5eef7c0efb28c6a52d824276eccbdbf88fd9e272aa65f1f47add7655678a1843334d275b1aaf921787f2cc424e43cf723a06557c8
+Homepage: http://www.gnu.org/software/diffutils/
+Description: Locale files for diffutils.
+
+Package: diffutils
+Architecture: iphoneos-arm
+Version: 3.7-2
+Multi-Arch: foreign
+Priority: important
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 944
+Depends: libintl8
+Filename: ./debians/diffutils_3.7-2_iphoneos-arm.deb
+Size: 138360
+MD5sum: c72f222614ac6b544f490650c0bd2bae
+SHA1: ce9264525396d6e1806f54c76ef04ac56522d0cd
+SHA256: b35b5a9405d3cf9c0890c2f6a2f3bad53babb8bb3952a1bb50d8a276672711b7
+SHA512: 5f8fd579728fdefd38500de51efb361fd5e5a979bcb543d0287bb2bc59220475f15b037601dce991b061c47d4748506cc93508f26cdcb2a160184276f43c51f6
+Homepage: http://www.gnu.org/software/diffutils/
+Description: compare two files for differences
+Name: Diff Utilities
+
+Package: dimentio
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Utilities
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 112
+Conflicts: com.michael.dimentio, com.kasiimh1.dimentio
+Filename: ./debians/dimentio_1.0_iphoneos-arm.deb
+Size: 10924
+MD5sum: 6f80257c0bd10c7bbc06793f1822e8f4
+SHA1: a15854a62d1c5a2ea52d91d89b5c6395edf7d1ef
+SHA256: b05970b6e72e3a09b9eb9d076c9ccd72b3597f4ea3b2ac50e1981d775a7dd6d3
+SHA512: 2ab4264e35fa706e96d52c82e27205ce15ecfe2cd917dbf6e7646ea3326959fd0e9dd167803b0a64d59790660bd917d234798273b3e112feea60023f801a1685
+Description: PoC tool for setting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
+Tag: purpose::console, role::hacker
+
+Package: diskdev-cmds
+Architecture: iphoneos-arm
+Version: 593.230.1
+Priority: required
+Essential: yes
+Section: System
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1744
+Filename: ./debians/diskdev-cmds_593.230.1_iphoneos-arm.deb
+Size: 58000
+MD5sum: 499dcbdc9fdb599bbd3dce25d489a1ec
+SHA1: 5827619ab32fb0f484838a5b57dc6d32035d3fd5
+SHA256: c5b235c3666f5161b0168655b7fbf1ad6d331cd0a737f4dfac4bc7073e547ff7
+SHA512: 34477c4c9c899409905943d5a5ccb44f84be74fa06c48947b0a3c35f3931802d326b5f30bb8017c57d748bd19a297194da7ae3e22399e5474e8e5941d0199ddc
+Description: mount, quota, fsck, fstyp, fdisk, tunefs
+Tag: purpose::console, role::sysadmn
+
+Package: dpkg-dev
+Architecture: iphoneos-arm
+Version: 1.20.5-3
+Priority: optional
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 552
+Depends: dpkg, libdpkg-perl (= 1.20.5-3)
+Filename: ./debians/dpkg-dev_1.20.5-3_iphoneos-arm.deb
+Size: 48692
+MD5sum: ea1156c47128df35a4c304345af92b52
+SHA1: 2958bf4d7b7f3d6540af2ed30f94d3455969c0cb
+SHA256: fec754816515d8396a1590641da3b0a8e0b76b116d3b1f230baf8cbacda5c641
+SHA512: 65a1bb97802ede33cb113668ca24fa383abb59c0f465d5502c8ba1b2d224cb6dbb3d77bb1a82b9686118edec6ee0501f70aac1ced539a9b93c8d8f036c241469
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: Debian package development tools
+ This package provides the development tools (including dpkg-source)
+ required to unpack, build and upload Debian source packages.
+Name: Debian Packager (Devel)
+
+Package: dpkg-locale
+Architecture: iphoneos-arm
+Version: 1.20.5-3
+Priority: optional
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 7800
+Pre-Depends: tar (>= 1.23), libintl8 (>= 0.20)
+Depends: dpkg (= 1.20.5-3), gettext-localizations
+Filename: ./debians/dpkg-locale_1.20.5-3_iphoneos-arm.deb
+Size: 558696
+MD5sum: e20614a35cecc92b43120580094823e5
+SHA1: b52da1f69df3fd1d2f812fdae3349d0d21033b44
+SHA256: 3260a898e2a8e32e3cb44383c49e9ccf3f8ab98784cec0842e15827a3f2895f9
+SHA512: e9dacf3db999c91b84fe9e6dc282c1cd821f7b31d5dacb5f638490c661586df71ed90d8c7a82fcef19d72106d9543b756a11e306226ff0abd0e2b1a46e19a2a5
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: Locale files for dpkg.
+
+Package: dpkg
+Architecture: iphoneos-arm
+Version: 1.20.5-3
+Priority: required
+Essential: yes
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5576
+Pre-Depends: tar (>= 1.23), libintl8 (>= 0.20)
+Depends: bash, coreutils, diffutils, tar, liblzma5 (>= 5.2.5), libintl8, libzstd1
+Filename: ./debians/dpkg_1.20.5-3_iphoneos-arm.deb
+Size: 1339884
+MD5sum: dac6bf06130bc2792f3735cb3b0fef32
+SHA1: 2136e996409f46f65df17e085593617773045ffb
+SHA256: 164a81acbbb70ea855e25ac928dd1de8d9f4aa454ed960242ab3850a1dd5be78
+SHA512: e5dab3ceb2a5b344f2deb039519d003c26ecabc83f7675dfe55c8d1ba5058e1624091c0b3bf823bdeb3cb72309307ad9c381550977a61be086e52ae153fe9e45
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+Name: Debian Packager
+
 Package: essential
 Architecture: iphoneos-arm
 Version: 0-3
@@ -275,15 +671,32 @@ Installed-Size: 0
 Pre-Depends: bootstrap | dpkg (>= 1.19.0)
 Depends: cydia | org.coolstar.sileo | xyz.willy.zebra | me.apptapp.installer
 Filename: ./debians/essential_0-3_iphoneos-arm.deb
-Size: 896
-MD5sum: cd3443041012af8fb2c4bc234c56a0e1
-SHA1: f41ef5d9da2c59a01d9a3b43821534150f026025
-SHA256: bd4059c6d73bdf195bd1aaf4a643d53494405cf45e7808208138bd240e22e386
-SHA512: ee95b24179b4186956a5001fca05b4d22f48e574ce86b44ec9d9ca89f155679ba7c722790d4a572cc1c9755a1a439767be97f4bb4949263c3a23af84299813eb
+Size: 900
+MD5sum: 22fdbbe927695b013df23ff4fb385875
+SHA1: 22e350ad05f53b4b02b5740a30d47fe7483381e0
+SHA256: 210a0389f1de3c4ff02b3ebb4793496b60fa9e790fddef5b87dff635ea193b36
+SHA512: 6889f42db04fd85ea95d77fffc4946158395614e0f0edda6a6774b331d4216897b1fed32c4f9f95e79f86bd7c192c1ce96f338daf96ec3b44ffd95b27c667fab
 Description: contains nothing, represents everything
 Tag: cydia::essential, role::goddess
 Depiction: http://cydia.saurik.com/info/essential/
 Name: Essential
+
+Package: expat
+Architecture: iphoneos-arm
+Version: 2.2.10
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 112
+Depends: libexpat1
+Filename: ./debians/expat_2.2.10_iphoneos-arm.deb
+Size: 9224
+MD5sum: 0c3ee24b5e28e6285931cfe0dc6e7410
+SHA1: 54e5d214ef49090712dd826cb14434c79522ffb0
+SHA256: 8cdb52518dfd71cc2faae7c4f4e65a1f7febb67cf9d712de1d2e33b7f1fb674c
+SHA512: a955ca5ac64e7ff1673a9af18bcca8da321fe07d7eecd53aaaf631a564a964886085cba09e3bfe79065e203f2546464ba1f5fe4f1033b860124700646b9136f1
+Description: XML parsing C library - example application
+  This package contains xmlwf, an example application of expat, the C library for parsing XML. The arguments to xmlwf are one or more files which are each to be checked for XML well-formedness.
 
 Package: file
 Architecture: iphoneos-arm
@@ -456,6 +869,153 @@ SHA256: a2ab1d6f3014c495c692d7d6f212c4f6824f7ff92a9ba2fa89d9c2a9c7bc9bac
 SHA512: 0652cbc2ab9454f85318457e1b65c57ceab4e74f488591bb21126eb5bf8e1bcf216a1aeca7e39c3615eb12fb3ad710017b62aa174a22db4154d0e2d23843072a
 Description: a general-purpose parser generator - development library
 
+Package: libbrotli-dev
+Architecture: iphoneos-arm
+Version: 1.0.9
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1616
+Depends: libbrotli1 (= 1.0.9)
+Filename: ./debians/libbrotli-dev_1.0.9_iphoneos-arm.deb
+Size: 294196
+MD5sum: bcf0fa9b8e8906f15603a1dfd2cb8309
+SHA1: b03ee454bf1733e808891ac8cc1df75d9b86ad2d
+SHA256: 0eb81f142b515cfd7ff4a40c72043cdaf776d2ecda09cbccb7e177d54779d06e
+SHA512: 9853bc53c688930ceb2eec3ccdc384fffe22e75386ca0b8ae71f507306c7be75983323d431240d798053869e2c98ef71e781fea65177615ace2ce53769bfc9ff
+Homepage: https://www.brotli.org/
+Description: Development files for the Brotli compression format
+Tag: purpose::library, role::developer
+
+Package: libbrotli1
+Architecture: iphoneos-arm
+Version: 1.0.9
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1664
+Filename: ./debians/libbrotli1_1.0.9_iphoneos-arm.deb
+Size: 286920
+MD5sum: 7a037e2d8bbcbc256486c1425d919a62
+SHA1: ed8aa91d28556383619e8b542b160d686eea9773
+SHA256: 4cff50457ff7803b62e1a30c5a10f7f95593f9ae231d6f53050b250ffda58dc3
+SHA512: 072ded434e6fbf5d975f8c9cc13537e83f252b2d4bcc411fb0ba16daee5aafdab7bd1f991af1f22ffc55e373b62f58676453ce3bacfb0df744f94971061d5b16
+Homepage: https://www.brotli.org/
+Description: Shared libraries for the Brotli compression format
+Tag: purpose::library, role::developer
+
+Package: libcurl4-openssl-dev
+Architecture: iphoneos-arm
+Version: 7.71.1-2
+Priority: standard
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 5368
+Provides: libcurl-dev (= 7.71.1-2)
+Depends: libcurl4 (= 7.71.1-2), libidn2-dev, libssl-dev, libssh2-dev, libnghttp2-dev
+Conflicts: curl (<< 7.71.1-2)
+Replaces: curl (<< 7.71.1-2)
+Filename: ./debians/libcurl4-openssl-dev_7.71.1-2_iphoneos-arm.deb
+Size: 924044
+MD5sum: 1a28f3bf3ac47cf841ff18e0a72a2ce6
+SHA1: 9a5c7ccad41569cdf4cca9d1e7b2903cdcda98bc
+SHA256: 8efd9da14fc04c55753f411229aa1dc4e106337ed7b052f6fad2a82b9e79d996
+SHA512: 637088041f8f5717c6b965d9620d8e8994502c682b59c7efc47aa208908a029fc90048cb7888efb02dbb0980e57237008d12b214c05861fe5ba2894fc04b8b62
+Homepage: http://curl.haxx.se/
+Description: development files and documentation for libcurl (OpenSSL flavour)
+Tag: purpose::console, role::hacker
+
+Package: libcurl4
+Architecture: iphoneos-arm
+Version: 7.71.1-2
+Priority: standard
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 880
+Depends: libnghttp2-14, libssh2-1, libssl1.1, libidn2-0
+Conflicts: curl (<< 7.71.1-2)
+Replaces: curl (<< 7.71.1-2)
+Filename: ./debians/libcurl4_7.71.1-2_iphoneos-arm.deb
+Size: 201804
+MD5sum: a1dd7f5781867aeaa72433084028a5e8
+SHA1: d762fe2c5fce84558cc856aa0423d4eca5a05379
+SHA256: bc2e1b10e6bc7a7764d19c5a222cffc40c5c041a1a1a989c9f6dd7dd139049a3
+SHA512: 17c1713c6b24d1dac134b597b43098199f649d3f7c0762f4ca1ea15731d6b83f5a41524d48cced1b834af5be24eec094b118e756da68e474d9913baca8497435
+Homepage: http://curl.haxx.se/
+Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
+Tag: purpose::console, role::hacker
+
+Package: libcwidget-dev
+Architecture: iphoneos-arm
+Version: 0.5.18
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2928
+Depends: libcwidget4 (= 0.5.18), libncurses-dev, libsigc++-2.0-dev
+Filename: ./debians/libcwidget-dev_0.5.18_iphoneos-arm.deb
+Size: 339232
+MD5sum: 12396d164447c4c45bf3c6c2b37c2d0e
+SHA1: 199f8bfa8433578d205d7328acb38019c05ac2b9
+SHA256: ae6abb497f533e38fff2f32ffefe2823cc28d4ec155d0e65f713f3de5241f357
+SHA512: 1bde1af1f90c28dc505d70e8a98ec86fbffc96e4088af36a718673506376e65f78d9214632449a0cc505f4c6088971d9c853f85278148bb22ee7f3d0a82d0187
+Description: high-level terminal interface library for C++ (development files)
+ libcwidget is a modern user interface library modeled on GTK+ and Qt,
+ but using curses as its display layer and with widgets that are
+ tailored to a terminal environment.
+ .
+ This package contains files that are needed to write or compile
+ software that uses libcwidget.
+ .
+ WARNING: this is a newly created library whose development is closely
+ tied to the development of aptitude.  Its API may be incomplete and
+ is likely to change considerably version-over-version!  You may want
+ to avoid cwidget for stable projects.
+
+Package: libcwidget4-locale
+Architecture: iphoneos-arm
+Version: 0.5.18
+Priority: optional
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 320
+Depends: libcwidget4 (= 0.5.18), gettext-localizations
+Filename: ./debians/libcwidget4-locale_0.5.18_iphoneos-arm.deb
+Size: 12548
+MD5sum: 915b6f25de7852205d08e0f44e363933
+SHA1: d4ad53b93f65f53a8476bc78d14a93e1d75ca90c
+SHA256: 3985c90a50dcb9e57a18c3add487427e2d0e5f976968b47a058e8d6900434712
+SHA512: 120ca2e15a8d3c4d6cc0d5e117f420785d2829adb06a3dc084da7f8cf5461a0c69dead6b22e43ab10073d37f436ab4cc4e28a57ab134a2c7897825a2bdfa4d9f
+Description: Locale files for libcwidget4.
+ libcwidget is a modern user interface library modeled on GTK+ and Qt,
+ but using curses as its display layer and with widgets that are
+ tailored to a terminal environment.
+ .
+ This package contains the files that are required to run programs
+ compiled against libcwidget.
+
+Package: libcwidget4
+Architecture: iphoneos-arm
+Version: 0.5.18
+Priority: optional
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1384
+Depends: libncursesw6, libsigc++-2.0-0v5
+Filename: ./debians/libcwidget4_0.5.18_iphoneos-arm.deb
+Size: 217688
+MD5sum: 2bdd029e522846ed32e8dbfaf3d04677
+SHA1: 78fbdeabe0658840fc6982d0d9e34cd6e5328fad
+SHA256: 173f25a6f138e46eefd8720e35b507020bd2ae7f4e3a48eefa0d7fcc936224c3
+SHA512: 7e1e3784937646e6f90f386879bb0d5cec639390ac740660a1db52849f1aa55121ae7fec645d26d6a7d2747d939c20e55741e7f8629ce0c8f321a8021dc6153b
+Description: high-level terminal interface library for C++ (runtime files)
+ libcwidget is a modern user interface library modeled on GTK+ and Qt,
+ but using curses as its display layer and with widgets that are
+ tailored to a terminal environment.
+ .
+ This package contains the files that are required to run programs
+ compiled against libcwidget.
+
 Package: libdb18.1++-dev
 Architecture: iphoneos-arm
 Version: 18.1.40
@@ -575,6 +1135,195 @@ Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
 Description: Berkeley v18.1 Database Libraries [runtime]
  This is the runtime package for programs that use the v18.1 Berkeley
  database library.
+
+Package: libdpkg-dev
+Architecture: iphoneos-arm
+Version: 1.20.5-3
+Priority: optional
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1000
+Depends: liblzma-dev
+Filename: ./debians/libdpkg-dev_1.20.5-3_iphoneos-arm.deb
+Size: 111196
+MD5sum: aabd6081e570ac82e13996a0af9478c4
+SHA1: 664f94b1880062a6e95e9040abc43e59a2b4542d
+SHA256: a6a86b79f6ce02417c7301682bad40a7057dd78ca233d0fa5eec91080e2ef319
+SHA512: 495429a5409e03c87c0a2d77529dbf99a3173bfe14c0520723adea74c9ec25fef924a4ff09f76ee206fcd91847e2dd8eb797e906372ea899dbab55eaac37e573
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: Debian package management static library
+ This package provides the header files and static library necessary to
+ develop software using libdpkg, the same library used internally by dpkg.
+ .
+ Note though, that the API is to be considered volatile, and might change
+ at any time, use at your own risk.
+
+Package: libdpkg-perl-locale
+Architecture: iphoneos-arm
+Version: 1.20.5-3
+Priority: optional
+Section: Localizations
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1088
+Depends: libdpkg-perl (= 1.20.5-3), gettext-localizations
+Filename: ./debians/libdpkg-perl-locale_1.20.5-3_iphoneos-arm.deb
+Size: 96072
+MD5sum: 297c0e766a98855317e8555037bef162
+SHA1: 7c605adbfc303d31c4a6108e7a91a51227370a88
+SHA256: 85b77a3d9df23ca52f160729ef9d8b590d44eaf5604a8d8a6ca33254eee7ecfe
+SHA512: e7766564db5d620e831ee336ae4a2e7e23f10dfdab83429b66ca2f261522f86f81be3830c137f720107d7d27ab62268f53eb8e34f21f2b2aa9d427ae122c7551
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: Locale files for libdpkg-perl.
+ This package provides the perl modules used by the scripts
+ in dpkg-dev. They cover a wide range of functionality. Among them
+ there are the following public modules:
+ .
+  - Dpkg: core variables
+  - Dpkg::Arch: architecture handling functions
+  - Dpkg::Build::Info: build information functions
+  - Dpkg::BuildFlags: set, modify and query compilation build flags
+  - Dpkg::BuildOptions: parse and manipulate DEB_BUILD_OPTIONS
+  - Dpkg::BuildProfiles: parse and manipulate build profiles
+  - Dpkg::Changelog: parse changelogs
+  - Dpkg::Changelog::Entry: represents a changelog entry
+  - Dpkg::Changelog::Parse: generic changelog parser for dpkg-parsechangelog
+  - Dpkg::Checksums: generate and parse checksums
+  - Dpkg::Compression: simple database of available compression methods
+  - Dpkg::Compression::FileHandle: transparently (de)compress files
+  - Dpkg::Compression::Process: wrapper around compression tools
+  - Dpkg::Conf: parse dpkg configuration files
+  - Dpkg::Control: parse and manipulate Debian control information
+    (.dsc, .changes, Packages/Sources entries, etc.)
+  - Dpkg::Control::Changelog: represent fields output by dpkg-parsechangelog
+  - Dpkg::Control::Fields: manage (list of known) control fields
+  - Dpkg::Control::Hash: parse and manipulate a block of RFC822-like fields
+  - Dpkg::Control::Info: parse files like debian/control
+  - Dpkg::Control::Tests: parse files like debian/tests/control
+  - Dpkg::Control::Tests::Entry: represents a debian/tests/control stanza
+  - Dpkg::Deps: parse and manipulate dependencies
+  - Dpkg::Deps::Simple: represents a single dependency statement
+  - Dpkg::Deps::Multiple: base module to represent multiple dependencies
+  - Dpkg::Deps::Union: list of unrelated dependencies
+  - Dpkg::Deps::AND: list of AND dependencies
+  - Dpkg::Deps::OR: list of OR dependencies
+  - Dpkg::Deps::KnownFacts: list of installed and virtual packages
+  - Dpkg::Exit: push, pop and run exit handlers
+  - Dpkg::Gettext: wrapper around Locale::gettext
+  - Dpkg::IPC: spawn sub-processes and feed/retrieve data
+  - Dpkg::Index: collections of Dpkg::Control (Packages/Sources files for
+    example)
+  - Dpkg::Interface::Storable: base object serializer
+  - Dpkg::Path: common path handling functions
+  - Dpkg::Source::Format: manipulate debian/source/format files
+  - Dpkg::Source::Package: extract Debian source packages
+  - Dpkg::Substvars: substitute variables in strings
+  - Dpkg::Vendor: identify current distribution vendor
+  - Dpkg::Version: parse and manipulate Debian package versions
+ .
+ All the packages listed in Suggests or Recommends are used by some of the
+ modules.
+
+Package: libdpkg-perl
+Architecture: iphoneos-arm
+Version: 1.20.5-3
+Priority: optional
+Section: Packaging
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1472
+Provides: dpkg-perl (=1.20.5-3)
+Depends: dpkg, perl
+Conflicts: dpkg-perl (<<1:0), dpkg-dev (<< 1.20.5-3)
+Replaces: dpkg-perl
+Filename: ./debians/libdpkg-perl_1.20.5-3_iphoneos-arm.deb
+Size: 117200
+MD5sum: e5c6e678307c1f5200056263e07c3584
+SHA1: abb368fe7601e2a3b3a15bb81598d1a4e09ecc29
+SHA256: 79ac5ea4e48aad7715a2431733af98c867ba78bcd7096a3494c643f45c6166c4
+SHA512: 71fb061872391704d86fbc3022ab493ab80b240c046f9ef71e5b6f21a57db45b0ad6acb51abddbcaa2b1a5f763091beb25c952c103e5abdb431f2f77e97bbfaa
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: Dpkg perl modules
+ This package provides the perl modules used by the scripts
+ in dpkg-dev. They cover a wide range of functionality. Among them
+ there are the following public modules:
+ .
+  - Dpkg: core variables
+  - Dpkg::Arch: architecture handling functions
+  - Dpkg::Build::Info: build information functions
+  - Dpkg::BuildFlags: set, modify and query compilation build flags
+  - Dpkg::BuildOptions: parse and manipulate DEB_BUILD_OPTIONS
+  - Dpkg::BuildProfiles: parse and manipulate build profiles
+  - Dpkg::Changelog: parse changelogs
+  - Dpkg::Changelog::Entry: represents a changelog entry
+  - Dpkg::Changelog::Parse: generic changelog parser for dpkg-parsechangelog
+  - Dpkg::Checksums: generate and parse checksums
+  - Dpkg::Compression: simple database of available compression methods
+  - Dpkg::Compression::FileHandle: transparently (de)compress files
+  - Dpkg::Compression::Process: wrapper around compression tools
+  - Dpkg::Conf: parse dpkg configuration files
+  - Dpkg::Control: parse and manipulate Debian control information
+    (.dsc, .changes, Packages/Sources entries, etc.)
+  - Dpkg::Control::Changelog: represent fields output by dpkg-parsechangelog
+  - Dpkg::Control::Fields: manage (list of known) control fields
+  - Dpkg::Control::Hash: parse and manipulate a block of RFC822-like fields
+  - Dpkg::Control::Info: parse files like debian/control
+  - Dpkg::Control::Tests: parse files like debian/tests/control
+  - Dpkg::Control::Tests::Entry: represents a debian/tests/control stanza
+  - Dpkg::Deps: parse and manipulate dependencies
+  - Dpkg::Deps::Simple: represents a single dependency statement
+  - Dpkg::Deps::Multiple: base module to represent multiple dependencies
+  - Dpkg::Deps::Union: list of unrelated dependencies
+  - Dpkg::Deps::AND: list of AND dependencies
+  - Dpkg::Deps::OR: list of OR dependencies
+  - Dpkg::Deps::KnownFacts: list of installed and virtual packages
+  - Dpkg::Exit: push, pop and run exit handlers
+  - Dpkg::Gettext: wrapper around Locale::gettext
+  - Dpkg::IPC: spawn sub-processes and feed/retrieve data
+  - Dpkg::Index: collections of Dpkg::Control (Packages/Sources files for
+    example)
+  - Dpkg::Interface::Storable: base object serializer
+  - Dpkg::Path: common path handling functions
+  - Dpkg::Source::Format: manipulate debian/source/format files
+  - Dpkg::Source::Package: extract Debian source packages
+  - Dpkg::Substvars: substitute variables in strings
+  - Dpkg::Vendor: identify current distribution vendor
+  - Dpkg::Version: parse and manipulate Debian package versions
+ .
+ All the packages listed in Suggests or Recommends are used by some of the
+ modules.
+
+Package: libexpat1-dev
+Architecture: iphoneos-arm
+Version: 2.2.10
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 360
+Depends: libexpat1 (= 2.2.10)
+Filename: ./debians/libexpat1-dev_2.2.10_iphoneos-arm.deb
+Size: 62976
+MD5sum: 2fc0e7e7c63e8b95440a1a478b37e721
+SHA1: 72f4656c5f2659e82f5869395e2b65725066728a
+SHA256: 02f7837adedade09b1e4391d58a2198dc2dfd47a011e8b436b0c4cd12092e438
+SHA512: aa2ab94ba53cfd03cc043c47560413f4aef0e05f958385864a2ec9ad9d67a97dc541419e75306d42a90d8a95fae289d2da8e60a54ad0d6ab0a189db2de27a89d
+Description: XML parsing C library - development kit
+  This package contains the header file and development libraries of expat, the C library for parsing XML. Expat is a stream oriented XML parser. This means that you register handlers with the parser prior to starting the parse. These handlers are called when the parser discovers the associated structures in the document being parsed. A start tag is an example of the kind of structures for which you may register handlers.
+
+Package: libexpat1
+Architecture: iphoneos-arm
+Version: 2.2.10
+Priority: optional
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 264
+Conflicts: expat (<< 2.2.10)
+Filename: ./debians/libexpat1_2.2.10_iphoneos-arm.deb
+Size: 47684
+MD5sum: 1336336b4baa086731cf78f313cc9f38
+SHA1: af276dca177a57e1da30aa4b9f4a408824428188
+SHA256: 80e544c10668485962589aaf6880ba5a1055b3ab21a2c968ec8b8d83f6f4157e
+SHA512: 3593413db9b0eea87604a181811620a27fee4aef1b9ca1ffe2a8ab1293177296f5fe7fed58437c3096f725f34bd1eed19dcab5366d7ae20a1de660c4629b9eb0
+Description: XML parsing C library - runtime library
+  This package contains the runtime, shared library of expat, the C library for parsing XML. Expat is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags).
 
 Package: libgettexpo-dev
 Architecture: iphoneos-arm
@@ -774,6 +1523,44 @@ SHA256: f4aa12f2f3b796861b7ed61a6c61aa51de7c2464f25a8dabcd870f6370a95b63
 SHA512: 71a6144b69f189d4f88fc01d7fbe5c82bffe44d010eec91e666696b22a11cff5d2a2ce67e3d8f091a2ed83e3f6e70db2a5068816038c52e35053795b3b214638
 Description: shared libraries for terminal handling (wide character support)
 
+Package: libssh2-1
+Architecture: iphoneos-arm
+Version: 1.9.0-2
+Priority: optional
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 424
+Provides: libssh2 (= 1.9.0-2)
+Depends: libssl1.1
+Conflicts: libssh2 (<< 1.9.0-2)
+Replaces: libssh2 (<< 1.9.0-2)
+Filename: ./debians/libssh2-1_1.9.0-2_iphoneos-arm.deb
+Size: 80724
+MD5sum: a69179e6070d0695c667129ff471f22b
+SHA1: 23475bfcbbab49f559acb469a2bcf62653b1481c
+SHA256: b4e898d89418ab4eeb598cdfa7a7ee99404e11286ec781df0465f2db224f7910
+SHA512: fc3e5039c1042769a747c788cc25285d43e1b5566145b933a65c30a8640c233ee190a251d890adcf54c63cd6ad6a50c0a6957302a57e88e66b4d5a17db34720a
+Homepage: https://www.libssh2.org/
+Description: SSH2 client-side library
+
+Package: libssh2-dev
+Architecture: iphoneos-arm
+Version: 1.9.0-2
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2008
+Depends: libssh2-1 (>= 1.9.0-2)
+Conflicts: libssh2 (<< 1.9.0-2)
+Filename: ./debians/libssh2-dev_1.9.0-2_iphoneos-arm.deb
+Size: 205428
+MD5sum: 93aa1560b3764d6d89bc52b88460469a
+SHA1: 8eccef86b15ba7e88d2c942aafade40b4be29d7f
+SHA256: 6b64a61f9cd3dea39a72c27e88b0a112d6336ad13c731acb5ff53c4a86eaedc7
+SHA512: d866178dc57a8b72473ee233b9d031ca24cc62c38026f78ccd1838f8709aca2ab8105583aa7013912fddf53d4f98ac703635435c0ad60c752c3202c036746d62
+Homepage: https://www.libssh2.org/
+Description: SSH2 client-side library (development headers)
+
 Package: libtextstyle-dev
 Architecture: iphoneos-arm
 Version: 0.21-2
@@ -947,6 +1734,44 @@ SHA256: 49fbf0c54638a65cc23823e3890c0e9b04ef62bccb753f0962b7922ec6877f23
 SHA512: 767da4596a8d39964bc66346bd2a76b729ad3037209498e1bd3e4dfd7e039b5430267cd4d330255131c7707745a472d4b184843d16b82defe774708a2f00952a
 Description: makes packaging for /etc/profile reasonable
 Name: Profile Directory
+
+Package: python3.8
+Architecture: iphoneos-arm
+Version: 3.8.6
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 128112
+Depends: libncursesw6 (>= 6.0), libreadline8 (>= 8.0), libssl1.1, libffi7, liblzma5 (>= 5.2.5), libgdbm6, libintl8
+Filename: ./debians/python3.8_3.8.6_iphoneos-arm.deb
+Size: 12672344
+MD5sum: e0f166769683185904fd6cfeeeb28d8a
+SHA1: 3106376921d31f3eaeb91c6d31db39888b7278b3
+SHA256: 363c70c9b5f8c62cc2142ec26a0d7dc256aaf13277ac65b8a3972aff944c5fd4
+SHA512: ee8bebd05016163524a51eec66fb66d82a977192383d8a3bc4bc778b1d080ba174daabe5c56e1d0c59ecc4cfa02bcaefcc14e1234a47a2c98031f5ddbd965e17
+Description: Interpreted, interactive, object-oriented programming language.
+Tag: purpose::console, role::hacker
+Name: Python 3.8
+
+Package: python3
+Architecture: iphoneos-arm
+Version: 3.8.6
+Priority: optional
+Section: Scripting
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Depends: python3.8
+Filename: ./debians/python3_3.8.6_iphoneos-arm.deb
+Size: 928
+MD5sum: 0a04942531c24cb57df5170cf2a774d2
+SHA1: 73686d4470d38f7470a7911ad447d66cfaced951
+SHA256: 7036b163aee3d62861773b0f93e482fe1b80a64ead36f578d416f45d1bd31ba5
+SHA512: 6ead93a2a92afe7e69d580bad71d895e48f8a41f4fd9cd648910e4c37ca28ced7f456ff5227bdbf609827be507e32d556902c06f8ec76ec7f057bf4b585d3574
+Description: Interpreted, interactive, object-oriented programming language.
+ Installing pip from the command line can be done with the `sudo python -m ensurepip` command.
+ After installing pip, place an SDK for your platform in /usr/share/SDKs. (e.g. /usr/share/iPhoneOS.sdk)
+Tag: purpose::console, role::hacker
+Name: Python 3
 
 Package: xz-utils
 Architecture: iphoneos-arm
