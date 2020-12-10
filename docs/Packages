@@ -1,17 +1,35 @@
 Package: img4lib
 Architecture: iphoneos-arm
-Version: 1.0-ed6a796
+Version: 1.0+git20201209.
 Priority: optional
-Section: Utilties
-Maintainer: M1staAwesome
-Filename: ./debians/img4lib_1.0-ed6a796_iphoneos-arm.deb
-Size: 38772
-MD5sum: f1b77aeb5b6f543452f6206d7da86118
-SHA1: c94c5559503868765b940b54763d2d346cea25dc
-SHA256: 86cef6b39d0acb2cbf40c96b00a2b261166b2181d19a60b92479afcf17e91252
-SHA512: bbed0e3de89d15a248965bea978e8698cda0130307210888e654428f73a1a5c8cc38b3802987dcf3ce72802b1b895a893c2a0eabaa9613318dabd99cf9970ea5
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 240
+Depends: openssl
+Filename: ./debians/img4lib_1.0+git20201209._iphoneos-arm.deb
+Size: 30076
+MD5sum: 1e05c5863962453901e28ab3641b67bb
+SHA1: d32f126235ec38651f152792b56754e697467d58
+SHA256: fc37f3a0fa96252ec87daf0db32036fbaa885033aeefca05027283b01fac83c6
+SHA512: 77729f57ccf2c176747cf9a4588a7a4693be0ba08719bea3e0602bbd433271d79e804adf97d645c4757002cb1f0e270ca6577800675ccb5fd7b522f96416dc10
 Description: image4 vfs
-Name: img4lib
 Depiction: https://m1sta.heywhatsupguysits.icu/depictions/web/?p=img4lib
 SileoDepiction: https://m1sta.heywhatsupguysits.icu/depictions/native/img4lib/depiction.json
+
+Package: libimg4-dev
+Architecture: iphoneos-arm
+Version: 1.0+git20201209.
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 512
+Filename: ./debians/libimg4-dev_1.0+git20201209._iphoneos-arm.deb
+Size: 72448
+MD5sum: 34834967c5faa7d72bd4286a3b0ccf1f
+SHA1: 122a8e3926e06cc8f4b4ebe62049d3d47c02403b
+SHA256: afc2adad39bf1f64fad84680d4a06580045614be5de626344b5390fb651ef733
+SHA512: 0bf389629be35eb5588b13e6f05ea4a1c5f3022d763a0adf5959764a05ac068b6cb3067dc71dd322a91f5381aa4b0cd7b93f6d4e32ac4163a860b0f17ae7cc71
+Description: image4 vfs - development files
+Depiction: https://m1sta.heywhatsupguysits.icu/depictions/web/?p=libimg4-dev
+SileoDepiction: https://m1sta.heywhatsupguysits.icu/depictions/native/libimg4-dev/depiction.json
 

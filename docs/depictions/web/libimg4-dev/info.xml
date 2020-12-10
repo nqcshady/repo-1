@@ -1,6 +1,6 @@
 <package>
-	<id>img4lib</id>
-	<name>img4lib</name>
+	<id>libimg4-dev</id>
+	<name>libimg4-dev</name>
 	<version>1.0+git20201209.</version>
 	<compatibility>
 		<firmware>
@@ -10,7 +10,7 @@
 	<dependencies>
 		<package>openssl</package>
 	</dependencies>
-	<shortDescription>image4 vfs</shortDescription>
+	<shortDescription>image4 vfs - development files</shortDescription>
 	<changelog>
 		<change>Initial Release</change>
 	</changelog>

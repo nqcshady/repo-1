@@ -8,7 +8,7 @@
 			"views": [
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "## img4lib\nimage4 vfs"
+					"markdown": "## libimg4-dev\nimage4 vfs - development files"
 				},
 				{
 					"class": "DepictionSeparatorView"
